@@ -154,7 +154,7 @@
 </ul>
 </li>
 <li><em><span>Example</span></em><span>: A Multi-Agent System (Trading Agent Competition)!</span></li>
-</ul><p><img src="https://i.imgur.com/ssergbT.png" alt="" loading="lazy"></p></div>
+</ul><p><img src="./../images/chapter2/chapter2image1.png" alt="" loading="lazy"></p></div>
     <div class="ui-toc dropup unselectable hidden-print" style="display:none;">
         <div class="pull-right dropdown">
             <a id="tocLabel" class="ui-toc-label btn btn-default" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" title="Table of content">
