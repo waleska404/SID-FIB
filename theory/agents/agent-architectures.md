@@ -131,8 +131,8 @@
 </li>
 </ul>
 </li>
-</ul><p><img src="./../images/chapter3/8.png" alt="" loading="lazy"></p><h3 id="Delliberative-Agents-with-explicit-goals" data-id="Delliberative-Agents-with-explicit-goals"><a class="anchor hidden-xs" href="#Delliberative-Agents-with-explicit-goals" title="Delliberative-Agents-with-explicit-goals"><span class="octicon octicon-link"></span></a><span>Delliberative Agents (with explicit goals)</span></h3><p><img src="https://i.imgur.com/OtjVpz8.png" alt="" loading="lazy"><br>
-<img src="https://i.imgur.com/LG91tuG.png" alt="" loading="lazy"></p><h3 id="Agents’-Interactions" data-id="Agents’-Interactions"><a class="anchor hidden-xs" href="#Agents’-Interactions" title="Agents’-Interactions"><span class="octicon octicon-link"></span></a><span>Agents’ Interactions</span></h3><ul>
+</ul><p><img src="./../images/chapter3/8.png" alt="" loading="lazy"></p><h3 id="Delliberative-Agents-with-explicit-goals" data-id="Delliberative-Agents-with-explicit-goals"><a class="anchor hidden-xs" href="#Delliberative-Agents-with-explicit-goals" title="Delliberative-Agents-with-explicit-goals"><span class="octicon octicon-link"></span></a><span>Delliberative Agents (with explicit goals)</span></h3><p><img src="./../images/chapter3/9b.png" alt="" loading="lazy"><br>
+<img src="./../images/chapter3/10.png" alt="" loading="lazy"></p><h3 id="Agents’-Interactions" data-id="Agents’-Interactions"><a class="anchor hidden-xs" href="#Agents’-Interactions" title="Agents’-Interactions"><span class="octicon octicon-link"></span></a><span>Agents’ Interactions</span></h3><ul>
 <li><span>Interaction between agents is </span><strong><span>unavoidable</span></strong><span>.</span>
 <ul>
 <li><span>To achieve </span><strong><span>own goals</span></strong><span>.</span></li>
@@ -226,7 +226,7 @@
 <li><span>Common communication protocols (message format, steps in a communication).</span></li>
 </ul>
 </li>
-</ul><h3 id="FIPA-Architecture-for-Agent-Platforms" data-id="FIPA-Architecture-for-Agent-Platforms"><a class="anchor hidden-xs" href="#FIPA-Architecture-for-Agent-Platforms" title="FIPA-Architecture-for-Agent-Platforms"><span class="octicon octicon-link"></span></a><span>FIPA Architecture for Agent Platforms</span></h3><p><img src="https://i.imgur.com/l5mj9wY.png" alt="" loading="lazy"></p></div>
+</ul><h3 id="FIPA-Architecture-for-Agent-Platforms" data-id="FIPA-Architecture-for-Agent-Platforms"><a class="anchor hidden-xs" href="#FIPA-Architecture-for-Agent-Platforms" title="FIPA-Architecture-for-Agent-Platforms"><span class="octicon octicon-link"></span></a><span>FIPA Architecture for Agent Platforms</span></h3><p><img src="./../images/chapter3/11.png" alt="" loading="lazy"></p></div>
     <div class="ui-toc dropup unselectable hidden-print" style="display:none;">
         <div class="pull-right dropdown">
             <a id="tocLabel" class="ui-toc-label btn btn-default" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" title="Table of content">
