@@ -100,7 +100,7 @@
 <li><span>The generated circuit does not represent or manipulate symbolic expressions; all symbolic manipulation is done at compile time.</span></li>
 </ul>
 </li>
-</ul><h4 id="From-perception-to-action" data-id="From-perception-to-action"><a class="anchor hidden-xs" href="#From-perception-to-action" title="From-perception-to-action"><span class="octicon octicon-link"></span></a><span>From perception to action</span></h4><p><img src="https://i.imgur.com/VAUpV0G.png" alt="" loading="lazy"></p><h3 id="Delliberative-Agents-with-expected-utilities" data-id="Delliberative-Agents-with-expected-utilities"><a class="anchor hidden-xs" href="#Delliberative-Agents-with-expected-utilities" title="Delliberative-Agents-with-expected-utilities"><span class="octicon octicon-link"></span></a><span>Delliberative Agents (with expected utilities)</span></h3><ul>
+</ul><h4 id="From-perception-to-action" data-id="From-perception-to-action"><a class="anchor hidden-xs" href="#From-perception-to-action" title="From-perception-to-action"><span class="octicon octicon-link"></span></a><span>From perception to action</span></h4><p><img src="./../images/chapter3/7.png" alt="" loading="lazy"></p><h3 id="Delliberative-Agents-with-expected-utilities" data-id="Delliberative-Agents-with-expected-utilities"><a class="anchor hidden-xs" href="#Delliberative-Agents-with-expected-utilities" title="Delliberative-Agents-with-expected-utilities"><span class="octicon octicon-link"></span></a><span>Delliberative Agents (with expected utilities)</span></h3><ul>
 <li><span>We build agents in order to carry out tasks for us. The task must be specified by us… But we want to </span><strong><span>tell agents what to do without telling them how to do it</span></strong><span>.</span></li>
 <li><span>One possibility: </span><strong><span>associate utilities with individual states</span></strong><span> — the task of the agent is then to bring about states that maximize utility.</span></li>
 <li><strong><u><span>Utility Functions over States</span></u><span>:</span></strong>
@@ -131,7 +131,7 @@
 </li>
 </ul>
 </li>
-</ul><p><img src="https://i.imgur.com/IMrkKWT.png" alt="" loading="lazy"></p><h3 id="Delliberative-Agents-with-explicit-goals" data-id="Delliberative-Agents-with-explicit-goals"><a class="anchor hidden-xs" href="#Delliberative-Agents-with-explicit-goals" title="Delliberative-Agents-with-explicit-goals"><span class="octicon octicon-link"></span></a><span>Delliberative Agents (with explicit goals)</span></h3><p><img src="https://i.imgur.com/OtjVpz8.png" alt="" loading="lazy"><br>
+</ul><p><img src="./../images/chapter3/8.png" alt="" loading="lazy"></p><h3 id="Delliberative-Agents-with-explicit-goals" data-id="Delliberative-Agents-with-explicit-goals"><a class="anchor hidden-xs" href="#Delliberative-Agents-with-explicit-goals" title="Delliberative-Agents-with-explicit-goals"><span class="octicon octicon-link"></span></a><span>Delliberative Agents (with explicit goals)</span></h3><p><img src="https://i.imgur.com/OtjVpz8.png" alt="" loading="lazy"><br>
 <img src="https://i.imgur.com/LG91tuG.png" alt="" loading="lazy"></p><h3 id="Agents’-Interactions" data-id="Agents’-Interactions"><a class="anchor hidden-xs" href="#Agents’-Interactions" title="Agents’-Interactions"><span class="octicon octicon-link"></span></a><span>Agents’ Interactions</span></h3><ul>
 <li><span>Interaction between agents is </span><strong><span>unavoidable</span></strong><span>.</span>
 <ul>
