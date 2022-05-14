@@ -189,7 +189,7 @@
 <li><span>hierarchical/markets</span></li>
 </ul>
 </li>
-</ul><p><img src="https://i.imgur.com/edwe58W.png" alt="" loading="lazy"></p><h3 id="Agent-Platform" data-id="Agent-Platform"><a class="anchor hidden-xs" href="#Agent-Platform" title="Agent-Platform"><span class="octicon octicon-link"></span></a><span>Agent Platform</span></h3><ul>
+</ul><h3 id="Agent-Platform" data-id="Agent-Platform"><a class="anchor hidden-xs" href="#Agent-Platform" title="Agent-Platform"><span class="octicon octicon-link"></span></a><span>Agent Platform</span></h3><ul>
 <li><span>Agents in a multiagent system tend to interact through a </span><strong><span>middleware layer</span></strong><span>.</span></li>
 <li><span>This middleware provides connectivity between agents, solving low-level connectivity issues: Communication methods.</span></li>
 <li><span>Sometimes this middleware is called </span><strong><span>agent platform</span></strong><span>.</span></li>
