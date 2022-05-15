@@ -106,48 +106,7 @@
 </ul>
 </li>
 </ul><p><img src="https://i.imgur.com/lwEgaXw.png" alt="" loading="lazy"></p></div>
-    <div class="ui-toc dropup unselectable hidden-print" style="display:none;">
-        <div class="pull-right dropdown">
-            <a id="tocLabel" class="ui-toc-label btn btn-default" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" title="Table of content">
-                <i class="fa fa-bars"></i>
-            </a>
-            <ul id="ui-toc" class="ui-toc-dropdown dropdown-menu" aria-labelledby="tocLabel">
-                <div class="toc"><ul class="nav">
-<li><a href="#Introducción" title="Introducción">Introducción</a><ul class="nav">
-<li><a href="#Ejercicio-Introductorio" title="Ejercicio Introductorio">Ejercicio Introductorio</a><ul class="nav">
-<li><a href="#Definición-del-problema" title="Definición del problema">Definición del problema</a></li>
-<li><a href="#Toma-de-decisiones" title="Toma de decisiones">Toma de decisiones</a></li>
-<li><a href="#Posibles-ampliaciones" title="Posibles ampliaciones">Posibles ampliaciones</a></li>
-</ul>
-</li>
-<li><a href="#Tecnología-actual" title="Tecnología actual">Tecnología actual</a></li>
-<li><a href="#JADE-Java-Agent-DEvelopment-framework" title="JADE: Java Agent DEvelopment framework">JADE: Java Agent DEvelopment framework</a></li>
-</ul>
-</li>
-</ul>
-</div><div class="toc-menu"><a class="expand-toggle" href="#">Expand all</a><a class="back-to-top" href="#">Back to top</a><a class="go-to-bottom" href="#">Go to bottom</a></div>
-            </ul>
-        </div>
-    </div>
-    <div id="ui-toc-affix" class="ui-affix-toc ui-toc-dropdown unselectable hidden-print" data-spy="affix" style="top:17px;display:none;" null null>
-        <div class="toc"><ul class="nav">
-<li><a href="#Introducción" title="Introducción">Introducción</a><ul class="nav">
-<li><a href="#Ejercicio-Introductorio" title="Ejercicio Introductorio">Ejercicio Introductorio</a><ul class="nav">
-<li><a href="#Definición-del-problema" title="Definición del problema">Definición del problema</a></li>
-<li><a href="#Toma-de-decisiones" title="Toma de decisiones">Toma de decisiones</a></li>
-<li><a href="#Posibles-ampliaciones" title="Posibles ampliaciones">Posibles ampliaciones</a></li>
-</ul>
-</li>
-<li><a href="#Tecnología-actual" title="Tecnología actual">Tecnología actual</a></li>
-<li><a href="#JADE-Java-Agent-DEvelopment-framework" title="JADE: Java Agent DEvelopment framework">JADE: Java Agent DEvelopment framework</a></li>
-</ul>
-</li>
-</ul>
-</div><div class="toc-menu"><a class="expand-toggle" href="#">Expand all</a><a class="back-to-top" href="#">Back to top</a><a class="go-to-bottom" href="#">Go to bottom</a></div>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gist-embed/2.6.0/gist-embed.min.js" integrity="sha256-KyF2D6xPIJUW5sUDSs93vWyZm+1RzIpKCexxElmxl8g=" crossorigin="anonymous" defer>
+    
 </body>
 
 </html>
