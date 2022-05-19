@@ -1,7 +1,5 @@
 # BDI 4 JADE II
 
-[//]: # (Poner aqui link al pdf)
-
 ###### tags: `SID-lab`
 
 ---
