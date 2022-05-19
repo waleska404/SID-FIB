@@ -4,6 +4,36 @@
 
 ###### tags: `SID-lab`
 
+* [Introducción a JADE](#introduccion-a-jade)
+    * [Setup del entorno](#setup-del-entorno)
+    * [Agentes](#agentes)
+        * Nombres locales, GUID y direcciones
+        * Paso de parámetros
+        * Expiración del agente
+        * Construyendo un agente
+        * Ciclo de vida del agente
+        * Estados del agente
+    * [Behaviours](#behaviours)
+        * Planificación y ejecución de Behaviours
+        * Tipos de Behaviours
+        * Empezar y acabar los Behaviours
+    * [Directory Facilitator (DF)](#directory-facilitator)
+        * Registro
+        * Búsqueda
+    * [Modelo de comunicación](#modelo-de-comunicación)
+        * La clase ACLMessage
+        * Envío y recepción de mensajes
+        * Message templates
+        * Paso de mensajes
+        * Protocolos de interacción
+        * Soporte a los protocolos de interacción
+        * AchieveREInitiator/Responder
+        * FIPA Contract-Net protocol
+    * [Gestión de contenido](#gestión-de-contenido)
+        * ACL Message
+        * Content Manager
+        * Ontología para JADE
+
 ---
 * **Referencias**:
      * http://jade.tilab.com/documentation/tutorials-guides/
@@ -147,7 +177,7 @@ protected void takeDown() {
 ---
 
 
-## Comportamientos (*Behaviours*)
+## Behaviours
 
 * Los agentes realizan sus tareas mediante *behaviours*.
 * Los *behaviours* se crean extendiendo la clase`jade.core.behaviours.Behaviour`
@@ -217,7 +247,7 @@ protected void takeDown() {
 ---
 
 
-## Directory Facilitator (DF)
+## Directory Facilitator
 
 * Recordad que el DF es un agente también.
 * Clase `jade.domain.DFService`
