@@ -105,7 +105,7 @@
 <li><em><span>Developing Multi-Agent Systems with JADE</span></em><span> (Bellifemine et al., 2007)</span></li>
 </ul>
 </li>
-</ul><p><img src="https://i.imgur.com/lwEgaXw.png" alt="" loading="lazy"></p></div>
+</ul><p><img src="./images/intro/1.png" alt="" loading="lazy"></p></div>
     
 </body>
 
