@@ -3,6 +3,16 @@
 
 ###### tags: `SID-lab`
 
+* [Implementando BDI](#implementando-bdi)
+* [BDI4JADE](#bdi4jade)
+* [Simplificaciones sobre BDI teórico](#simplificaciones-sobre-bdi-teórico)
+* [Creando un goal sencillo](#creando-un-goal-sencillo)
+* [Creando un plan body](#creando-un-plan-body)
+* [Creando un plan](#creando-un-plan)
+* [Creando un agente BDI sencillo](#creando-un-agente-bdi-sencillo)
+* [Replanificación](#replanificación)
+
+
 ---
 
 ## Implementando BDI

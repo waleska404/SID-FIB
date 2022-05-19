@@ -1,8 +1,15 @@
 # BDI 4 JADE II
 
-[//]: # (Poner aqui link al pdf)
-
 ###### tags: `SID-lab`
+
+* [Usando beliefs](#usando-beliefs)
+* [Crear jerarquías de objetivos](#crear-jerarquías-de-objetivos)
+* [Objetivos basados en creencias](#objetivos-basados-en-creencias)
+* [Objetivos basados en mensajes](#objetivos-basados-en-mensajes)
+* [Monitorización de objetivos](#monitorización-de-objetivos)
+* [Controlar el ciclo BDI](#controlar-el-ciclo-bdi)
+* [Replanificación](#replanificación)
+
 
 ---
 
