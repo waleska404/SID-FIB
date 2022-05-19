@@ -124,7 +124,7 @@ protected void takeDown() {
 
 ### Ciclo de vida del agente
 
-<center><img src="https://i.imgur.com/t3w0h4y.png"></center>
+<center><img src="./images/intro2jade/1.png"></center>
 
 
 ### Estados del agente
@@ -141,7 +141,7 @@ protected void takeDown() {
 | Transit   | The mobile agent enters this state while it is migrating to the new location. The system continues to buffer messages that will then be sent to its new location. | 
 
 
-<center><img src="https://i.imgur.com/LeeXD7Y.png"></center>
+<center><img src="./images/intro2jade/2.png"></center>
 
 
 ---
@@ -227,7 +227,7 @@ protected void takeDown() {
     * `search()`
 
 
-<center><img src="https://i.imgur.com/C2ir6Oo.png"></center>
+<center><img src="./images/intro2jade/3.png"></center>
 
 
 ### Registro
@@ -295,7 +295,7 @@ if (results.length > 0) {
 * Formato de mensajes definido por el lenguaje ACL (FIPA).
 
 
-<center><img src="https://i.imgur.com/Uh5eZwO.png"></center>
+<center><img src="./images/intro2jade/4.png"></center>
 
 
 ### La clase ACLMessage
@@ -405,7 +405,7 @@ public void action() {
 
 ### Protocolos de interacción
 
-![](https://i.imgur.com/xgt4a0K.png)
+![](./images/intro2jade/5.png)
 
 * Secuencias predefinidas de intercambio de mensajes. En todos ellos se distingue:
     *  Un **Initiator**, que permite gestionar varios Responders a la vez; es un comportamiento que:
@@ -476,7 +476,7 @@ myAgent.addBehaviour(new AchieveRE Responder(myAgent,mt) {
 
 ### FIPA Contract-Net protocol
 
-![](https://i.imgur.com/8E4TY3M.png)
+![](./images/intro2jade/6.png)
 
 * ContractNetInitiatorAgent
 * ContractNetResponderAgent
@@ -492,8 +492,8 @@ myAgent.addBehaviour(new AchieveRE Responder(myAgent,mt) {
 ### ACL Message
 
 * Un ACL Message sigue una estructura fija:
-    ![](https://i.imgur.com/11IsnIl.png)
-    ![](https://i.imgur.com/xxOml7w.png)
+    ![](./images/intro2jade/7.png)
+    ![](./images/intro2jade/8.png)
 * ACL: Content:
     * En este campo (`slot`) está el contenido del mensaje en forma de expresiones.
     * La librería de commons-codec se usa para codificar y decodificar estas expresiones que irán en dicho campo.
