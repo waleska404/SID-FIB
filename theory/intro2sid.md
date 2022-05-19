@@ -253,7 +253,7 @@
 <li><span>Rationality only concerns what decisions are made.</span></li>
 <li><strong><span>Goals</span></strong><span> are expressed in terms of utility (of outcomes).</span></li>
 </ul><figure>
-<img src="./images/intro/1.png">
+<img src="./images/intro/2.png">
 <figcaption><b>What kind of AI?</b></figcaption>
 </figure><blockquote>
 <p><em><span>I think the big problem is that we’re not smart enough to understand which of the problems we’re facing are good enough. Therefore, we have to build super intelligent machines like HAL.</span></em><span> -Marvin Minsky</span></p>

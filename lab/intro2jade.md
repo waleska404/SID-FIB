@@ -124,7 +124,7 @@ protected void takeDown() {
 
 ### Ciclo de vida del agente
 
-<center><img src="https://i.imgur.com/t3w0h4y.png"></center>
+<center><img src="./images/intro2jade/1.png"></center>
 
 
 ### Estados del agente
@@ -141,7 +141,7 @@ protected void takeDown() {
 | Transit   | The mobile agent enters this state while it is migrating to the new location. The system continues to buffer messages that will then be sent to its new location. | 
 
 
-<center><img src="https://i.imgur.com/LeeXD7Y.png"></center>
+<center><img src="./images/intro2jade/2.png"></center>
 
 
 ---
@@ -227,7 +227,7 @@ protected void takeDown() {
     * `search()`
 
 
-<center><img src="https://i.imgur.com/C2ir6Oo.png"></center>
+<center><img src="./images/intro2jade/3.png"></center>
 
 
 ### Registro
@@ -295,7 +295,7 @@ if (results.length > 0) {
 * Formato de mensajes definido por el lenguaje ACL (FIPA).
 
 
-<center><img src="https://i.imgur.com/Uh5eZwO.png"></center>
+<center><img src="./images/intro2jade/4.png"></center>
 
 
 ### La clase ACLMessage
@@ -405,7 +405,7 @@ public void action() {
 
 ### Protocolos de interacción
 
-![](https://i.imgur.com/xgt4a0K.png)
+![](./images/intro2jade/5.png)
 
 * Secuencias predefinidas de intercambio de mensajes. En todos ellos se distingue:
     *  Un **Initiator**, que permite gestionar varios Responders a la vez; es un comportamiento que:
@@ -447,13 +447,36 @@ public void action() {
     * Si nuestro protocolo es 1:1 esta sería la mejor opción.
     * Podemos igualmente sobreescribir cualquier handler como en el caso anterior.
 * Ejemplo sencillo:
-    ![](https://i.imgur.com/WIUxZzy.png)
+```java ('*.java')
+ACLMessage request=new ACLMessage(ACLMessage.REQUEST)
 
+request.setProtocol(FIPANames.InteractionProtocols.FIPA_REQUEST);
+request.addReceiver(new AID("receiver", AID.ISLOCALNAME));
+myAgent.addBehaviour(new AchieveREInitiator(myAgent, request) {
+          protected void handle Inform(ACLMessage inform) {
+            System.out.println("Protocol finished.Rational Effect achieved.
+            Received the following message:"+inform);
+         } 
+});
+
+Message Template mt=
+AchieveREResponder.create Message Template(FIPANames.InteractionProtocols.FIPA_REQUEST);
+
+myAgent.addBehaviour(new AchieveRE Responder(myAgent,mt) {
+   protected ACLMessage prepareResultNotification(ACLMessage requ, ACLMessage resp) {
+          System.out.println("Responder has received the following message:" + request);
+          ACLMessage informDone = request.createReply();
+          informDone.setPerformative(ACLMessage.INFORM);
+          informDone.setContent("inform done");
+          return informDone;
+   }
+});
+```
 
 
 ### FIPA Contract-Net protocol
 
-![](https://i.imgur.com/8E4TY3M.png)
+![](./images/intro2jade/6.png)
 
 * ContractNetInitiatorAgent
 * ContractNetResponderAgent
@@ -469,8 +492,8 @@ public void action() {
 ### ACL Message
 
 * Un ACL Message sigue una estructura fija:
-    ![](https://i.imgur.com/11IsnIl.png)
-    ![](https://i.imgur.com/xxOml7w.png)
+    ![](./images/intro2jade/7.png)
+    ![](./images/intro2jade/8.png)
 * ACL: Content:
     * En este campo (`slot`) está el contenido del mensaje en forma de expresiones.
     * La librería de commons-codec se usa para codificar y decodificar estas expresiones que irán en dicho campo.
@@ -500,12 +523,34 @@ JADE, a través del Content Manager:
 * **Usando la ontología**:
     1. Nos importaremos el código generado al proyecto.
     2. Crearemos instancias usando las clases (tanto para conceptos como propiedades).
-    3. En el setup del agente registraremos en este el lenguaje y ontología. ![](https://i.imgur.com/PTdSn0Y.png)
-    4. Crearemos el ACLMessage donde indicaremos la ontología.![](https://i.imgur.com/MDVYnPN.png)
-    5. Mediante `myAgent.getContentManager.fillContent` añadiremos al mensaje creado las instancias.![](https://i.imgur.com/MCmjy0G.png)
+    3. En el setup del agente registraremos en este el lenguaje y ontología. 
+        ```java ('*.java')
+        getContent Manager().register Language(new SLCodec(),FIPANames.Content Language.FIPA_SL0);
+        getContentManager().registerOntology(NameOfOntology.getInstance());
+        ```
+    4. Crearemos el ACLMessage donde indicaremos la ontología.
+        ```java ('*.java')
+        ACLMessage request Msg=new ACLMessage(ACLMessage.REQUEST);
+        requestMsg.add Receiver(((RequesterAgent)myAgent).engager);
+        requestMsg.setLanguage(FIPANames.Content Language.FIPA_SLO);
+        requestMsg.setOntology(EmploymentOntology.NAME);
+        ```
+    5. Mediante `myAgent.getContentManager.fillContent` añadiremos al mensaje creado las instancias.
+        ```java ('*.java')
+        try{
+            myAgent.getContent Manager().fillContent(requestMsg,a);
+        }
+        catch(Exception pe){
+        }
+        ```
     6. En el receptor, utilizaremos la función `getContentManager().extractContent(msg)`. Después podemos comprobar con `instanceOf` de que clase son las cosas (si hiciera falta).
     7. En general utilizaríamos algún lenguaje de contenido como FIPA-SL para construir expresiones indicando si, por ejemplo, tenemos alguna cosa, si no tenemos esa cosa, si podemos descargar, etc…
-        * Por ejemplo, para indicar que una persona no trabaja en X: ![](https://i.imgur.com/t0VLkOX.png)
+        * Por ejemplo, para indicar que una persona no trabaja en X:
+            ```java ('*.java')
+            - (not(Works(Person:name XXX)(Company:name YYY)))
+            - AbsPredicate not=new AbsPredicate(SLVocabulary.NOT);
+              not.set(SLVocabulary.NOT_WHAT,...);
+            ```
     8. Ojo, para las acciones (como descargar) tenemos que crear un objeto `Action` y después definir el actor y la acción concreta (`setActor` y `setAction`). Ese será el contenido del mensaje.
 * **Referencias:**
     * Tutorial: APPLICATION-DEFINED CONTENT LANGUAGES AND ONTOLOGIES: http://jade.tilab.com/doc/tutorials/CLOntoSupport.pdf
