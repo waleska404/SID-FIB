@@ -75,7 +75,7 @@
 <li><u><span>An agent is a computer system capable of autonomous action in some environment in order to meet its design objectives.</span></u></li>
 <li><span>An agent should be able to perceive and act in the environment.</span></li>
 <li><span>Usually the environment is </span><em><strong><span>complex</span></strong></em><span> and </span><em><strong><span>dynamic</span></strong></em><span>, and agents should interact with it in real time.</span></li>
-</ul><p><img src="https://i.imgur.com/P7WLLdh.png" alt="" loading="lazy"></p><hr><h2 id="Cognitive-AI-Paradigms" data-id="Cognitive-AI-Paradigms"><a class="anchor hidden-xs" href="#Cognitive-AI-Paradigms" title="Cognitive-AI-Paradigms"><span class="octicon octicon-link"></span></a><span>Cognitive AI Paradigms</span></h2><ul>
+</ul><p><img src="./images/intro/1.png" alt="" loading="lazy"></p><hr><h2 id="Cognitive-AI-Paradigms" data-id="Cognitive-AI-Paradigms"><a class="anchor hidden-xs" href="#Cognitive-AI-Paradigms" title="Cognitive-AI-Paradigms"><span class="octicon octicon-link"></span></a><span>Cognitive AI Paradigms</span></h2><ul>
 <li><span>In AI, paradigmas can be characterized by the metaphor used to model intelligence:</span>
 <ul>
 <li><span>Logics</span></li>
@@ -253,7 +253,7 @@
 <li><span>Rationality only concerns what decisions are made.</span></li>
 <li><strong><span>Goals</span></strong><span> are expressed in terms of utility (of outcomes).</span></li>
 </ul><figure>
-<img src="https://i.imgur.com/9ErCMOo.png">
+<img src="./images/intro/1.png">
 <figcaption><b>What kind of AI?</b></figcaption>
 </figure><blockquote>
 <p><em><span>I think the big problem is that we’re not smart enough to understand which of the problems we’re facing are good enough. Therefore, we have to build super intelligent machines like HAL.</span></em><span> -Marvin Minsky</span></p>
