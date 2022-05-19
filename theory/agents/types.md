@@ -51,7 +51,7 @@
 <li><span>An agent is a computer system capable of </span><strong><span>autonomous</span></strong><span> action in some environment in order to meet its design objectives. </span><span class="color fa fa-tag" data-color="#37B9BF" style="color: rgb(55, 185, 191);"></span></li>
 </ul>
 </blockquote><p><span>Usually the environment is </span><strong><span>complex</span></strong><span> and </span><strong><span>dynamic</span></strong><span>, and agents should interact with it in real time.</span><br>
-<u><span>Main property</span></u><span>: </span><strong><span>Autonomy</span></strong><span> capable of acting independently, exhibiting control over their </span><strong><span>internal state</span></strong><span>.</span></p><p><img src="https://i.imgur.com/msjmjkL.png" alt="" loading="lazy"></p><h3 id="Flexibility" data-id="Flexibility"><a class="anchor hidden-xs" href="#Flexibility" title="Flexibility"><span class="octicon octicon-link"></span></a><span>Flexibility</span></h3><blockquote style="border-left-color: rgb(55, 185, 191);">
+<u><span>Main property</span></u><span>: </span><strong><span>Autonomy</span></strong><span> capable of acting independently, exhibiting control over their </span><strong><span>internal state</span></strong><span>.</span></p><p><img src="./../images/agents/types/1.png" alt="" loading="lazy"></p><h3 id="Flexibility" data-id="Flexibility"><a class="anchor hidden-xs" href="#Flexibility" title="Flexibility"><span class="octicon octicon-link"></span></a><span>Flexibility</span></h3><blockquote style="border-left-color: rgb(55, 185, 191);">
 <ul>
 <li><span>An intelligent agent is a computer system capable of </span><strong><span>flexible</span></strong><span> autonomous action in some environment. </span><span class="color fa fa-tag" data-color="#37B9BF" style="color: rgb(55, 185, 191);"></span></li>
 </ul>
@@ -154,7 +154,7 @@
 </ul>
 </li>
 <li><em><span>Example</span></em><span>: A Multi-Agent System (Trading Agent Competition)!</span></li>
-</ul><p><img src="./../images/chapter2/chapter2image1.png" alt="" loading="lazy"></p></div>
+</ul><p><img src="./../images/agents/types/2.png" alt="" loading="lazy"></p></div>
     <div class="ui-toc dropup unselectable hidden-print" style="display:none;">
         <div class="pull-right dropdown">
             <a id="tocLabel" class="ui-toc-label btn btn-default" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" title="Table of content">
