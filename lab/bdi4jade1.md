@@ -1,10 +1,7 @@
 # BDI 4 JADE I
 
-[//]: # (Poner aqui link al pdf)
 
 ###### tags: `SID-lab`
-
-[ToC]
 
 ---
 
@@ -31,7 +28,7 @@
     * https://github.com/ingridnunes/bdi4jade/releases/download/v2.0/bdi4jade.jar
     * https://dlcdn.apache.org//commons/logging/binaries/commons-logging-1.2-bin.zip
 
-![](https://i.imgur.com/G55ijbn.png)
+![](./images/bdi4jade1/1.png)
 
 ---
 
@@ -51,7 +48,7 @@
 * Un goal se crea implementando la interfaz `bdi4jade.goal.Goal`.
 * Puede tener los atributos y métodos que queramos (si hace falta parametrizar).
 
-```java=1 ('*.java')
+```java ('*.java')
 public class HelloGoal implements Goal {
     private final String text;
     public HelloGoal(String text) {
@@ -70,7 +67,7 @@ public class HelloGoal implements Goal {
 * Un plan body es un **behaviour** con acceso a la base de beliefs de su capability y a su goal actual y que cumple: `done() == (getEndState() != null)`
 * BDI4JADE incluye implementaciones para ejecutar planes secuenciales, paralelos o con FSM pero podemos simplemente extender `AbstractPlanBody` y sobreescribir `Behaviour.action()`.
 
-```java=1 ('*.java')
+```java ('*.java')
 public class HelloPlanBody extends AbstractPlanBody {
     @Override
     public void action() {
@@ -89,7 +86,7 @@ public class HelloPlanBody extends AbstractPlanBody {
 * La clase de plan abstracta es `AbstractPlan` pero `DefaultPlan` será suficiente para la mayoría de casos.
 * La constructora puede recibir una subclase de Goal (o `GoalTemplate`) y una subclase de PlanBody.
 
-```java=1 ('*.java')
+```java ('*.java')
 Plan plan = new DefaultPlan(HelloGoal.class, HelloPlanBody.class);
 ```
 
@@ -103,7 +100,7 @@ Plan plan = new DefaultPlan(HelloGoal.class, HelloPlanBody.class);
     * Los plans.
 
 
-```java=1 ('*.java')
+```java ('*.java')
 public class TestBDIAgent extends SingleCapabilityAgent {
     public TestBDIAgent() {
         Plan plan = new DefaultPlan(HelloGoal.class, HelloPlanBody.class);
@@ -119,7 +116,7 @@ public class TestBDIAgent extends SingleCapabilityAgent {
 
 * Bajo ciertas condiciones, el agente replanificará siguiendo el ciclo de razonamiento:
     * **Si el PlanBody acaba con `EndState == FAILED`:** En este caso, se escogerá otro Plan que cumpla con el mismo objetivo que tenía asignado el plan fallido.
-    ```java=1 ('*.java')
+    ```java ('*.java')
     public void action() {
         if (planHasFailed) {
             setEndState(Plan.EndState.FAILED);
@@ -129,7 +126,7 @@ public class TestBDIAgent extends SingleCapabilityAgent {
     }
     ```
     * **Si el Plan retorna false en la sobreescritura de `isContextApplicable`:** Esta comprobación se hace antes de elegir plan, nunca durante la ejecución del plan body. Si retorna false, se escogerá otro plan, si existe.
-    ```java=1 ('*.java')
+    ```java ('*.java')
     Plan plan = new DefaultPlan(HelloWorldGoal.class, HelloWorldPlanBody.class) {
         @Override
         public boolean isContextApplicable(Goal goal) {
@@ -139,7 +136,7 @@ public class TestBDIAgent extends SingleCapabilityAgent {
     };
     ```
     * **Si un goal desaparece del agente:** Al desaparecer el objetivo, se interrumpe el plan body actual y tampoco habrá replanificación para dicho objetivo. Proactividad: también se pueden añadir objetivos, dinámicamente, desde los `action()`.
-    ```java=1 ('*.java')
+    ```java ('*.java')
     public void action() {
         AbstractBDIAgent agent = (AbstractBDIAgent) getAgent();
         agent.dropGoal(agent.getGoals().iterator().next());
