@@ -447,8 +447,33 @@ public void action() {
     * Si nuestro protocolo es 1:1 esta sería la mejor opción.
     * Podemos igualmente sobreescribir cualquier handler como en el caso anterior.
 * Ejemplo sencillo:
-    ![](https://i.imgur.com/WIUxZzy.png)
+```java ('*.java')
+ACLMessage request=new ACLMessage(ACLMessage.REQUEST)
 
+request.setProtocol(FIPANames.InteractionProtocols.FIPA_REQUEST);
+request.addReceiver(new AID("receiver", AID.ISLOCALNAME));
+myAgent.addBehaviour(new AchieveREInitiator(myAgent, request) {
+          protected void handle Inform(ACLMessage inform) {
+            System.out.println("Protocol finished.Rational Effect achieved.
+            Received the following message:"+inform);
+         } 
+});
+
+
+
+Message Template mt=
+AchieveREResponder.create Message Template(FIPANames.InteractionProtocols.FIPA_REQUEST);
+
+myAgent.addBehaviour(new AchieveRE Responder(myAgent,mt) {
+   protected ACLMessage prepareResultNotification(ACLMessage requ, ACLMessage resp) {
+          System.out.println("Responder has received the following message:" + request);
+          ACLMessage informDone = request.createReply();
+          informDone.setPerformative(ACLMessage.INFORM);
+          informDone.setContent("inform done");
+          return informDone;
+   }
+});
+```
 
 
 ### FIPA Contract-Net protocol
