@@ -4,8 +4,6 @@
 
 ###### tags: `SID-lab`
 
-[ToC]
-
 ---
 * **Referencias**:
      * http://jade.tilab.com/documentation/tutorials-guides/
@@ -45,7 +43,7 @@
     * Podemos recuperar el AID de un agente mediante el método `getAID()` de la clase `Agent`
 
 
-```java=1 ('*.java')
+```java ('*.java')
 import jade.core.Agent;
 
 public class HelloWorldAgent extends Agent {
@@ -76,7 +74,7 @@ AID globalId = new AID(name, AID.ISGUID);
 * Pasar parámetros a un agente: `java jade.Boot .. ´A:myPackage.MyAgent(arg1 arg2)´`
 * Recuperar los argumentos con el método `getArguments()` de la clase `Agent`
 
-```java=5 ('*.java')
+```java ('*.java')
 protected void setup() {
     Object[] args = getArguments();
     if (args != null) {
@@ -93,7 +91,7 @@ protected void setup() {
 * Durante su terminación se invoca el método `takeDown()` (e.g., para realizar operaciones de limpieza)
 
 
-```java=5 ('*.java')
+```java ('*.java')
 protected void setup() {
     System.out.println.("Hello World! my name is " + getAID().getName());
     Object[] args = getArguments();
@@ -109,7 +107,6 @@ protected void setup() {
 protected void takeDown() {
     System.out.println("Bye...");
 }
-
 ```
 
 
@@ -127,8 +124,6 @@ protected void takeDown() {
 
 ### Ciclo de vida del agente
 
-[//]: # (<center><img src="https://i.imgur.com/YSTI4lv.png"></center>)
-
 <center><img src="https://i.imgur.com/t3w0h4y.png"></center>
 
 
@@ -145,8 +140,6 @@ protected void takeDown() {
 | Deleted   | The agent is definitely dead. The internal thread has terminated its execution and the agent is no more registered with AMS. | 
 | Transit   | The mobile agent enters this state while it is migrating to the new location. The system continues to buffer messages that will then be sent to its new location. | 
 
-
-[//]: # (<center><img src="https://i.imgur.com/LeeXD7Y.png"></center>)
 
 <center><img src="https://i.imgur.com/LeeXD7Y.png"></center>
 
@@ -234,8 +227,6 @@ protected void takeDown() {
     * `search()`
 
 
-[//]: # (<center><img src="https://i.imgur.com/C2ir6Oo.png"></center>)
-
 <center><img src="https://i.imgur.com/C2ir6Oo.png"></center>
 
 
@@ -253,7 +244,7 @@ protected void takeDown() {
 
 
 
-```java=1 ('*.java')
+```java ('*.java')
 DFAgentDescription dfd = new DFAgentDescription();
 dfd.setName(getAID());
 ServiceDescription sd = new ServiceDescription();
@@ -278,7 +269,7 @@ dfd.addServices(sd);
 * Enviaremos una petición de búsqueda al `DFService`
 * De los resultados obtendremos el AID del proveedor.
 
-```java=1 ('*.java')
+```java ('*.java')
 // Build the description used as template for the search
 DFAgentDescription template = new DFAgentDescription();
 ServiceDescription templateSd = new ServiceDescription();
@@ -306,8 +297,6 @@ if (results.length > 0) {
 
 <center><img src="https://i.imgur.com/Uh5eZwO.png"></center>
 
-[//]: # (<center><img src="https://i.imgur.com/Uh5eZwO.png"></center>)
-
 
 ### La clase ACLMessage
 
@@ -324,7 +313,7 @@ if (results.length > 0) {
 
 * Enviar un mensaje consiste básicamente en crear un objeto `ACLMessage` y llamar al método `send()` de `Agent`
 
-```java=1 ('*.java')
+```java ('*.java')
 ACLMessage msg = new ACLMessage(ACLMessage.INFORM);
 msg.addReceiver(new AID ("Peter", AID.ISLOCALNAME));
 msg.setLanguage("English");
@@ -336,7 +325,7 @@ send(msg);
 
 * Para procesar mensajes de la cola de mensajes privada, el Agent ejecuta el método `receive()`
 
-```java=1 ('*.java')
+```java ('*.java')
 ACLMessage msg = receive();
 if(msg != null) {
     //Process the message
@@ -350,7 +339,7 @@ if(msg != null) {
 * Método `blockingReceive()` disponible (pero peligroso).
     * Bloquea todo el agente y no deja que se ejecute ningún otro *behaviour* hasta que llegue el mensaje.
 
-```java=1 ('*.java')
+```java ('*.java')
 public void action() {
     ACLMessage msg = myAgent.receive();
     if(msg != null) {
