@@ -1,7 +1,5 @@
 # Introducción a JADE
 
-[//]: # (Poner aqui link al pdf)
-
 ###### tags: `SID-lab`
 
 * [Introducción a JADE](#introduccion-a-jade)
