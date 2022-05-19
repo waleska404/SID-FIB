@@ -492,6 +492,7 @@ myAgent.addBehaviour(new AchieveRE Responder(myAgent,mt) {
 ### ACL Message
 
 * Un ACL Message sigue una estructura fija:
+
     ![](./images/intro2jade/7.png)
     ![](./images/intro2jade/8.png)
 * ACL: Content:
