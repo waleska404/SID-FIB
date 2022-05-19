@@ -459,8 +459,6 @@ myAgent.addBehaviour(new AchieveREInitiator(myAgent, request) {
          } 
 });
 
-
-
 Message Template mt=
 AchieveREResponder.create Message Template(FIPANames.InteractionProtocols.FIPA_REQUEST);
 
@@ -525,12 +523,34 @@ JADE, a través del Content Manager:
 * **Usando la ontología**:
     1. Nos importaremos el código generado al proyecto.
     2. Crearemos instancias usando las clases (tanto para conceptos como propiedades).
-    3. En el setup del agente registraremos en este el lenguaje y ontología. ![](https://i.imgur.com/PTdSn0Y.png)
-    4. Crearemos el ACLMessage donde indicaremos la ontología.![](https://i.imgur.com/MDVYnPN.png)
-    5. Mediante `myAgent.getContentManager.fillContent` añadiremos al mensaje creado las instancias.![](https://i.imgur.com/MCmjy0G.png)
+    3. En el setup del agente registraremos en este el lenguaje y ontología. 
+        ```java ('*.java')
+        getContent Manager().register Language(new SLCodec(),FIPANames.Content Language.FIPA_SL0);
+        getContentManager().registerOntology(NameOfOntology.getInstance());
+        ```
+    4. Crearemos el ACLMessage donde indicaremos la ontología.
+        ```java ('*.java')
+        ACLMessage request Msg=new ACLMessage(ACLMessage.REQUEST);
+        requestMsg.add Receiver(((RequesterAgent)myAgent).engager);
+        requestMsg.setLanguage(FIPANames.Content Language.FIPA_SLO);
+        requestMsg.setOntology(EmploymentOntology.NAME);
+        ```
+    5. Mediante `myAgent.getContentManager.fillContent` añadiremos al mensaje creado las instancias.
+        ```java ('*.java')
+        try{
+            myAgent.getContent Manager().fillContent(requestMsg,a);
+        }
+        catch(Exception pe){
+        }
+        ```
     6. En el receptor, utilizaremos la función `getContentManager().extractContent(msg)`. Después podemos comprobar con `instanceOf` de que clase son las cosas (si hiciera falta).
     7. En general utilizaríamos algún lenguaje de contenido como FIPA-SL para construir expresiones indicando si, por ejemplo, tenemos alguna cosa, si no tenemos esa cosa, si podemos descargar, etc…
-        * Por ejemplo, para indicar que una persona no trabaja en X: ![](https://i.imgur.com/t0VLkOX.png)
+        * Por ejemplo, para indicar que una persona no trabaja en X:
+            ```java ('*.java')
+            - (not(Works(Person:name XXX)(Company:name YYY)))
+            - AbsPredicate not=new AbsPredicate(SLVocabulary.NOT);
+              not.set(SLVocabulary.NOT_WHAT,...);
+            ```
     8. Ojo, para las acciones (como descargar) tenemos que crear un objeto `Action` y después definir el actor y la acción concreta (`setActor` y `setAction`). Ese será el contenido del mensaje.
 * **Referencias:**
     * Tutorial: APPLICATION-DEFINED CONTENT LANGUAGES AND ONTOLOGIES: http://jade.tilab.com/doc/tutorials/CLOntoSupport.pdf
