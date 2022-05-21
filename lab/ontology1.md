@@ -8,18 +8,18 @@
    * [Base tecnológica](#base-tecnológica)
    * [RDF Schema](#rdf-schema)
 * [Ontology Web Language (OWL)](#ontology-web-language)
-   * [OWL Full]
-   * [OWL DL]
-   * [OWL Lite]
-* [Ciclo de desarrollo de una Ontología]
-* [Restricciones]
-   * [Axiomas de Clase]
-   * [Quantifier Restrictions]
-   * [Cardinality Restrictions]
-   * [Restricciones por Valor]
-   * [Operaciones de Conjuntos]
-* [Propiedades]
-* [Referencias]
+   * [OWL Full](#owl-full)
+   * [OWL DL](#owl-dl)
+   * [OWL Lite](#owl-lite)
+* [Ciclo de desarrollo de una Ontología](#ciclo-de-desarrollo-de-una-ontología)
+* [Restricciones](#restricciones)
+   * [Axiomas de Clase](#axiomas-de-clase)
+   * [Quantifier Restrictions](#quantifier-restrictions)
+   * [Cardinality Restrictions](#cardinality-restrictions)
+   * [Restricciones por Valor](#restricciones-por-valor)
+   * [Operaciones de Conjuntos](#operaciones-de-conjuntos)
+* [Propiedades](#propiedades)
+* [Referencias](#referencias)
 
 
 ---
