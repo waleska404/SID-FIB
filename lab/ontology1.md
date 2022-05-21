@@ -2,6 +2,26 @@
 
 ###### tags: `SID-lab`
 
+* [Teoría básica sobre Ontologías](teoría-básica-sobre-ontologías)
+   * [Filosofía (Aristóteles y Platón)]
+   * [Informática]
+   * [Base tecnológica]
+   * [RDF Schema]
+* [Ontology Web Language (OWL)]
+   * [OWL Full]
+   * [OWL DL]
+   * [OWL Lite]
+* [Ciclo de desarrollo de una Ontología]
+* [Restricciones]
+   * [Axiomas de Clase]
+   * [Quantifier Restrictions]
+   * [Cardinality Restrictions]
+   * [Restricciones por Valor]
+   * [Operaciones de Conjuntos]
+* [Propiedades]
+* [Referencias]
+
+
 ---
 
 ## Teoría básica sobre Ontologías
