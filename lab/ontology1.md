@@ -2,12 +2,12 @@
 
 ###### tags: `SID-lab`
 
-* [Teoría básica sobre Ontologías](teoría-básica-sobre-ontologías)
-   * [Filosofía (Aristóteles y Platón)]
-   * [Informática]
-   * [Base tecnológica]
-   * [RDF Schema]
-* [Ontology Web Language (OWL)]
+* [Teoría básica sobre Ontologías](#teoría-básica-sobre-ontologías)
+   * [Filosofía (Aristóteles y Platón)](#filosofía)
+   * [Informática](#informática)
+   * [Base tecnológica](#base-tecnológica)
+   * [RDF Schema](#rdf-schema)
+* [Ontology Web Language (OWL)](#ontology-web-language)
    * [OWL Full]
    * [OWL DL]
    * [OWL Lite]
@@ -26,7 +26,7 @@
 
 ## Teoría básica sobre Ontologías
 
-### Filosofía (Aristóteles y Platón)
+### Filosofía
 
 Filosóficamente: Parte de la metafísica que estudia lo que hay:
 * Lo que existe. Entidades o conjuntos de entidades.
@@ -81,7 +81,7 @@ https://www.w3.org/TR/rdf-schema/
 
 ---
 
-## Ontology Web Language (OWL)
+## Ontology Web Language
 
 * OWL-FULL
     * Sin restricciones.
