@@ -15,3 +15,18 @@
 |         | [Agent Architectures] | [Elements, Design & Development] |
 |         | [BDI] |   [Formal Foundations and Languages] |
 |         | [Discussion About Agents] | [Ontologies and Knowledge Representation] |
+
+
+# Evaluación
+
+* Npar = examen parcial
+* NEx1 = 1ª mitad del examen final
+* NEx2 = 2ª mitad del examen final
+* Nota de teoría = [max (Npar, NEx1) + NEx2] / 2
+
+**Nota final = Nota de teoría * 0,5 + nota ejercicios prácticos * 0,2 + nota práctica de laboratorio * 0,3**
+
+# Profesores
+
+* Ulises Cortés García ( ia@cs.upc.edu )
+* Sergio Álvarez Napagao ( salvarez@cs.upc.edu )
