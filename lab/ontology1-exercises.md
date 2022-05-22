@@ -89,18 +89,18 @@ Observad la diferencia entre `NamedPizza` y `RealItalianPizza`:
 ## Ejercicio 5
 
 * Cread una instancia de DeepPanBase (Individuals).
-    **PNG 24**
-    **PNG 25**
+    ![](images/ontology1/exercises/24.png)
+    ![](images/ontology1/exercises/25.png)
 * Cread una instancia de Pizza con las siguientes propiedades:
     * Tiene como país de origen Italia.
-    **PNG 26**
+    ![](images/ontology1/exercises/26.png)
     * Tiene como base la instancia de DeepPanBase que habéis creado.
-    **PNG 27**
-    **PNG 28**
+    ![](images/ontology1/exercises/27.png)
+    ![](images/ontology1/exercises/28.png)
 * En el menú, arrancad el Reasoner
     * ¿Es inconsistente? ¿Por qué?
-    **PNG 29**
-    **PNG 30**
+    ![](images/ontology1/exercises/29.png)
+    ![](images/ontology1/exercises/30.png)
 * Borrad estas instancias y volved a sincronizar el Reasoner.
 
 ---
@@ -109,17 +109,17 @@ Observad la diferencia entre `NamedPizza` y `RealItalianPizza`:
 
 
 * Cread un topping TurtleTopping.
-    **PNG 31**
+    ![](images/ontology1/exercises/31.png)
 * Cread una Pizza llamada SuperMarioPizza con condiciones necesarias y suficientes: tener como ingredientes champiñones y tortugas.
-    **PNG 32**
-    **PNG 33**
+    ![](images/ontology1/exercises/32.png)
+    ![](images/ontology1/exercises/33.png)
 * Cread una instancia de una pizza de tipo Pizza con ingredientes instancias de champiñones y tortugas.
-    **PNG 34**
+    ![](images/ontology1/exercises/34.png)
 * Sincronizad el Razonador y observad cómo se clasifica.
-    **PNG 35**
+    ![](images/ontology1/exercises/35.png)
 * Cambiad SuperMarioPizza para que las condiciones sean sólo necesarias y observad la diferencia tras sincronizar.
-    **PNG 36**
-    **PNG 37**
+    ![](images/ontology1/exercises/36.png)
+    ![](images/ontology1/exercises/37.png)
     
 ---
 
@@ -127,23 +127,23 @@ Observad la diferencia entre `NamedPizza` y `RealItalianPizza`:
 
 * Cread las siguientes pizzas:
     * Pizza con marisco: contiene como mínimo marisco.
-    **PNG 38**
+    ![](images/ontology1/exercises/38.png)
     * Pizza de marisco: todos los ingredientes son de marisco.
-    **PNG 39**
+    ![](images/ontology1/exercises/39.png)
     * Pizza ecléctica: mínimo 10 ingredientes.
-    **PNG 40**
+    ![](images/ontology1/exercises/40.png)
     * Pizza de oferta: máximo 2 ingredientes.
-    **PNG 41**
+    ![](images/ontology1/exercises/41.png)
     * Pizza binaria: exactamente 2 ingredientes.
-    **PNG 42**
+    ![](images/ontology1/exercises/42.png)
     * Pizza triqueso: exactamente 3 ingredientes, todos de queso.
-    **PNG 43**
+    ![](images/ontology1/exercises/43.png)
     * Pizza escandinava:
         * Tendréis que editar en texto libre (Class Expression Editor) y también editar la clase Country.
         * Utilizad or y value (tenéis ejemplos en American y en la guía).
-    **PNG 44**
+    ![](images/ontology1/exercises/44.png)
     * Pizza aburrida especial: pizzas que no sean InterestingPizza, pero que estén en la unión entre las MeatyPizza y las CheesyPizza.
-    **PNG 45**
+    ![](images/ontology1/exercises/45.png)
     
 
 ---
@@ -152,17 +152,17 @@ Observad la diferencia entre `NamedPizza` y `RealItalianPizza`:
 
 1. Cread una propiedad funcional que asigne un creador a una NamedPizza (tendréis que crear clases).
     * Asignad dos creadores a una instancia de NamedPizza.
-    **PNG 46**
+    ![](images/ontology1/exercises/46.png)
     * Sincronizad el Razonador.
     * Qué inferencia ha hecho?
     Ha determinado que las dos creadoras son el mismo individual.
-    **PNG 47**
-    **PNG 48**
+    ![](images/ontology1/exercises/47.png)
+    ![](images/ontology1/exercises/48.png)
 2. Identificad los creadores como Different Individuals y resincronizad.
-    **PNG 49**
+    ![](images/ontology1/exercises/49.png)
 3. Cread una propiedad transitiva que permita representar que la creación de una NamedPizza está influenciada por otra.
-    **PNG 50**
+    ![](images/ontology1/exercises/50.png)
 4. Cread una propiedad simétrica que permita expresar que dos ingredientes combinan bien.
-    **PNG 51**
+    ![](images/ontology1/exercises/51.png)
 5. Observad las características disponibles en las data properties. ¿Tiene sentido?
     Si. Solo está disponible la `Funcional`.
