@@ -10,12 +10,12 @@
 
 1. Descargad la ontología (https://raw.githubusercontent.com/owlcs/pizza-ontology/master/pizza.owl) y cargarla en Pretégé.
 2. Añadid algún comentario (Annotations).
-    **PNG 1**
+    ![](images/ontology1/exercises/1.png)
 3. Cread una subclase de Thing (Entities).
-    **PNG 2**
+    ![](images/ontology1/exercises/2.png)
 4. Cread un hermano y una subclase de esta clase.
 5. Haced que la clase y su hermano sean disjuntas (Disjoint With). No hace falta hacerlo para las dos.
-    **PNG 3**
+    ![](images/ontology1/exercises/3.png)
 
 ---
     
@@ -24,14 +24,14 @@
 Observad la diferencia entre `NamedPizza` y `RealItalianPizza`:
 1. ¿Cuál es primitiva y cuál equivalente?
     `NamedPizza` es la primitiva y `RealItalianPizza` es la equivalente.
-    **PNG 4**
-    **PNG 5**
+    ![](images/ontology1/exercises/4.png)
+    ![](images/ontology1/exercises/5.png)
 3. ¿Cuáles son las condiciones suficientes para que una pizza sea `RealItalianPizza`?
     Que sea una `Pizza` y que tenga como valor de `hasCountryOfOrigin`: `Italy`.
-    **PNG 6**
+    ![](images/ontology1/exercises/6.png)
 5. ¿Qué condiciones añade a las suficientes?
     Que tenga `only ThinAndCrispyBase`.
-    **PNG 7**
+    ![](images/ontology1/exercises/7.png)
     
     
 ---
@@ -43,39 +43,39 @@ Observad la diferencia entre `NamedPizza` y `RealItalianPizza`:
     * Buscad las inconsistencias (en rojo).
     * ¿A qué se deben estas inconsistencias?
     * Usad el símbolo de interrogación para obtener explicaciones.
-    **PNG 8**
-    **PNG 9**
-    **PNG 10**
-    **PNG 11**
+    ![](images/ontology1/exercises/8.png)
+    ![](images/ontology1/exercises/9.png)
+    ![](images/ontology1/exercises/10.png)
+    ![](images/ontology1/exercises/11.png)
 3. Analizad la clasificación del razonador.
     * Buscad las inferencias de clasificación (en amarillo).
     * Usad el símbolo de interrogación para obtener explicaciones.
     Por ejemplo:
-    **PNG 12**
-    **PNG 13**
-    **PNG 14**
+    ![](images/ontology1/exercises/12.png)
+    ![](images/ontology1/exercises/13.png)
+    ![](images/ontology1/exercises/14.png)
 4. Parad el Reasoner.
-    **PNG 15**
+    ![](images/ontology1/exercises/15.png)
 
 ---
 
 ## Ejercicio 4
 
 1. Cread una ObjectProperty para expresar en qué país se vende.
-    **PNG 16**
+    ![](images/ontology1/exercises/16.png)
     * Asignad dominio y rango
-    **PNG 17**
-    **PNG 18**
+    ![](images/ontology1/exercises/17.png)
+    ![](images/ontology1/exercises/18.png)
 2. Cread una subpropiedad de `hasIngredient` para poder representar el relleno del borde.
-    **PNG 19**
+    ![](images/ontology1/exercises/19.png)
     * Asignad dominio y rango.
     * Asignad alguna restricción, como por ejemplo `disjoint with` o `inverse of`.
-    **PNG 20**
+    ![](images/ontology1/exercises/20.png)
 3. Cread una DataProperty para poder representar el precio.
-    **PNG 21**
+    ![](images/ontology1/exercises/21.png)
     * Asignad dominio y rango.
-    **PNG 22**
-    **PNG 23**
+    ![](images/ontology1/exercises/22.png)
+    ![](images/ontology1/exercises/23.png)
     
     
 ---
