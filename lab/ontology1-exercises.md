@@ -89,16 +89,19 @@ Observad la diferencia entre `NamedPizza` y `RealItalianPizza`:
 ## Ejercicio 5
 
 * Cread una instancia de DeepPanBase (Individuals).
+
     ![](images/ontology1/exercises/24.png)
     ![](images/ontology1/exercises/25.png)
 * Cread una instancia de Pizza con las siguientes propiedades:
     * Tiene como país de origen Italia.
     ![](images/ontology1/exercises/26.png)
     * Tiene como base la instancia de DeepPanBase que habéis creado.
+   
     ![](images/ontology1/exercises/27.png)
     ![](images/ontology1/exercises/28.png)
 * En el menú, arrancad el Reasoner
     * ¿Es inconsistente? ¿Por qué?
+
     ![](images/ontology1/exercises/29.png)
     ![](images/ontology1/exercises/30.png)
 * Borrad estas instancias y volved a sincronizar el Reasoner.
@@ -109,6 +112,7 @@ Observad la diferencia entre `NamedPizza` y `RealItalianPizza`:
 
 
 * Cread un topping TurtleTopping.
+
     ![](images/ontology1/exercises/31.png)
 * Cread una Pizza llamada SuperMarioPizza con condiciones necesarias y suficientes: tener como ingredientes champiñones y tortugas.
     ![](images/ontology1/exercises/32.png)
@@ -127,16 +131,22 @@ Observad la diferencia entre `NamedPizza` y `RealItalianPizza`:
 
 * Cread las siguientes pizzas:
     * Pizza con marisco: contiene como mínimo marisco.
+    
     ![](images/ontology1/exercises/38.png)
     * Pizza de marisco: todos los ingredientes son de marisco.
+   
     ![](images/ontology1/exercises/39.png)
     * Pizza ecléctica: mínimo 10 ingredientes.
+   
     ![](images/ontology1/exercises/40.png)
     * Pizza de oferta: máximo 2 ingredientes.
+   
     ![](images/ontology1/exercises/41.png)
     * Pizza binaria: exactamente 2 ingredientes.
+   
     ![](images/ontology1/exercises/42.png)
     * Pizza triqueso: exactamente 3 ingredientes, todos de queso.
+    
     ![](images/ontology1/exercises/43.png)
     * Pizza escandinava:
         * Tendréis que editar en texto libre (Class Expression Editor) y también editar la clase Country.
