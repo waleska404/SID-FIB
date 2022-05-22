@@ -28,6 +28,7 @@ Observad la diferencia entre `NamedPizza` y `RealItalianPizza`:
     ![](images/ontology1/exercises/5.png)
 3. ¿Cuáles son las condiciones suficientes para que una pizza sea `RealItalianPizza`?
     Que sea una `Pizza` y que tenga como valor de `hasCountryOfOrigin`: `Italy`.
+    
     ![](images/ontology1/exercises/6.png)
 5. ¿Qué condiciones añade a las suficientes?
     Que tenga `only ThinAndCrispyBase`.
@@ -43,6 +44,7 @@ Observad la diferencia entre `NamedPizza` y `RealItalianPizza`:
     * Buscad las inconsistencias (en rojo).
     * ¿A qué se deben estas inconsistencias?
     * Usad el símbolo de interrogación para obtener explicaciones.
+    
     ![](images/ontology1/exercises/8.png)
     ![](images/ontology1/exercises/9.png)
     ![](images/ontology1/exercises/10.png)
@@ -55,6 +57,7 @@ Observad la diferencia entre `NamedPizza` y `RealItalianPizza`:
     ![](images/ontology1/exercises/13.png)
     ![](images/ontology1/exercises/14.png)
 4. Parad el Reasoner.
+
     ![](images/ontology1/exercises/15.png)
 
 ---
@@ -62,6 +65,7 @@ Observad la diferencia entre `NamedPizza` y `RealItalianPizza`:
 ## Ejercicio 4
 
 1. Cread una ObjectProperty para expresar en qué país se vende.
+
     ![](images/ontology1/exercises/16.png)
     * Asignad dominio y rango
     ![](images/ontology1/exercises/17.png)
@@ -70,8 +74,10 @@ Observad la diferencia entre `NamedPizza` y `RealItalianPizza`:
     ![](images/ontology1/exercises/19.png)
     * Asignad dominio y rango.
     * Asignad alguna restricción, como por ejemplo `disjoint with` o `inverse of`.
+    
     ![](images/ontology1/exercises/20.png)
 3. Cread una DataProperty para poder representar el precio.
+
     ![](images/ontology1/exercises/21.png)
     * Asignad dominio y rango.
     ![](images/ontology1/exercises/22.png)
