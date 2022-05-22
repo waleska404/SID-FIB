@@ -151,6 +151,7 @@ Observad la diferencia entre `NamedPizza` y `RealItalianPizza`:
     * Pizza escandinava:
         * Tendréis que editar en texto libre (Class Expression Editor) y también editar la clase Country.
         * Utilizad or y value (tenéis ejemplos en American y en la guía).
+     
     ![](images/ontology1/exercises/44.png)
     * Pizza aburrida especial: pizzas que no sean InterestingPizza, pero que estén en la unión entre las MeatyPizza y las CheesyPizza.
     ![](images/ontology1/exercises/45.png)
@@ -169,6 +170,7 @@ Observad la diferencia entre `NamedPizza` y `RealItalianPizza`:
     ![](images/ontology1/exercises/47.png)
     ![](images/ontology1/exercises/48.png)
 2. Identificad los creadores como Different Individuals y resincronizad.
+
     ![](images/ontology1/exercises/49.png)
 3. Cread una propiedad transitiva que permita representar que la creación de una NamedPizza está influenciada por otra.
     ![](images/ontology1/exercises/50.png)
