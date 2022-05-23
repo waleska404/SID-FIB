@@ -211,7 +211,7 @@ DELETE DATA{
 
 ### Arquitectura
 
-![](https://i.imgur.com/apgTeO6.png)
+![](images/ontology2/1.png)
 
 
 ### Set up
@@ -234,17 +234,17 @@ DELETE DATA{
 
 ### JenaTester
 
-![](https://i.imgur.com/Twqo1Q0.png)
+![](images/ontology2/2.png)
 
 ### Cargar Ontología
 
-![](https://i.imgur.com/s2jASzB.png)
+![](images/ontology2/3.png)
 
 
 ### Niveles de Inferencia
 
-![](https://i.imgur.com/BXN0w9M.png)
-![](https://i.imgur.com/A8bwPfL.png)
+![](images/ontology2/4.png)
+![](images/ontology2/5.png)
 
 * La decisión dependerá de las necesidades.
     * TRANS_INF es mucho más rápido que RULE_INF
@@ -256,12 +256,12 @@ DELETE DATA{
 
 ### Guardar ontología
 
-![](https://i.imgur.com/UuqqAjU.png)
+![](images/ontology2/6.png)
 
 ### Listar instancias
 
 
-![](https://i.imgur.com/cFnizeK.png)
+![](images/ontology2/7.png)
 
 
 ```
@@ -286,7 +286,7 @@ Ontology has individual:
 ### Agrupar instancias por clase
 
 
-![](https://i.imgur.com/xNC27hb.png)
+![](images/ontology2/8.png)
 
 
 ```
@@ -300,7 +300,7 @@ Class:'http://www.co-ode.org/ontologies/pizza/pizza.owl#Country' has individuals
 
 ### Consultar propiedades
 
-![](https://i.imgur.com/MLGrtCH.png)
+![](images/ontology2/9.png)
 
 
 ```
@@ -317,12 +317,12 @@ Name:hasBase
 
 ### Añadir elementos a la ontología
 
-![](https://i.imgur.com/30RoVoW.png)
+![](images/ontology2/10.png)
 
 ### Consultar con SPARQL
 
 
-![](https://i.imgur.com/nd5V0GS.png)
+![](images/ontology2/11.png)
 
 
 ```
@@ -334,7 +334,7 @@ Pizza=...#FourSeasonsInstance<->true
 ### Usar diferentes niveles de inferencia
 
 
-![](https://i.imgur.com/Dr1xoa5.png)
+![](images/ontology2/12.png)
 
 
 ```
