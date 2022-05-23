@@ -2,13 +2,31 @@
 
 ###### tags: `SID-lab`
 
-[ToC]
+* [Teoría básica sobre Ontologías](#teoría-básica-sobre-ontologías)
+   * [Filosofía (Aristóteles y Platón)](#filosofía)
+   * [Informática](#informática)
+   * [Base tecnológica](#base-tecnológica)
+   * [RDF Schema](#rdf-schema)
+* [Ontology Web Language (OWL)](#ontology-web-language)
+   * [OWL Full](#owl-full)
+   * [OWL DL](#owl-dl)
+   * [OWL Lite](#owl-lite)
+* [Ciclo de desarrollo de una Ontología](#ciclo-de-desarrollo-de-una-ontología)
+* [Restricciones](#restricciones)
+   * [Axiomas de Clase](#axiomas-de-clase)
+   * [Quantifier Restrictions](#quantifier-restrictions)
+   * [Cardinality Restrictions](#cardinality-restrictions)
+   * [Restricciones por Valor](#restricciones-por-valor)
+   * [Operaciones de Conjuntos](#operaciones-de-conjuntos)
+* [Propiedades](#propiedades)
+* [Referencias](#referencias)
+
 
 ---
 
 ## Teoría básica sobre Ontologías
 
-### Filosofía (Aristóteles y Platón)
+### Filosofía
 
 Filosóficamente: Parte de la metafísica que estudia lo que hay:
 * Lo que existe. Entidades o conjuntos de entidades.
@@ -63,7 +81,7 @@ https://www.w3.org/TR/rdf-schema/
 
 ---
 
-## Ontology Web Language (OWL)
+## Ontology Web Language
 
 * OWL-FULL
     * Sin restricciones.
@@ -184,112 +202,6 @@ https://www.w3.org/TR/rdf-schema/
     * Los valores asignados deben cumplir las restricciones impuestas-
     * Se pueden usar razonadores para comprobar que las restricciones se cumplan.
 
-### Ejemplo y Ejercicios: PizzaOntology
-
-
-EJERCICIO 1
-1. Descargad la ontología (https://raw.githubusercontent.com/owlcs/pizza-ontology/master/pizza.owl) y cargarla en Pretégé.
-2. Añadid algún comentario (Annotations).
-![](https://i.imgur.com/iO2DggP.png)
-3. Cread una subclase de Thing (Entities)
-![](https://i.imgur.com/NoDgR2M.png)
-4. Cread un hermano y una subclase de esta clase.
-![](https://i.imgur.com/vU5H6rF.png)
-5. Haced que la clase y su hermano sean disjuntas (Disjoint With). No hace falta hacerlo para las dos.
-![](https://i.imgur.com/4nWHgL7.png)
-
-
-EJERCICIO 2
-
-Observad la diferencia entre `NamedPizza` y `RealItalianPizza`:
-1. ¿Cuál es primitiva y cuál equivalente?
-    `NamedPizza` es la primitiva y `RealItalianPizza` es la equivalente.
-    ![](https://i.imgur.com/w09N5fA.png)
-    ![](https://i.imgur.com/Y57m0s1.png)
-3. ¿Cuáles son las condiciones suficientes para que una pizza sea `RealItalianPizza`?
-    Que sea una `Pizza` y que tenga como valor de `hasCountryOfOrigin`: `Italy`.
-    ![](https://i.imgur.com/2r1oQen.png)
-5. ¿Qué condiciones añade a las suficientes?
-    Que tenga `only ThinAndCrispyBase`.
-    ![](https://i.imgur.com/NnWXr9f.png)
-
-
-EJERICICO 3
-
-1. Arrancad el Reasoner incluído en Protégé. Se puede configurar para ampliar/acotar el ámbito de lógica.
-2. Analizad inconsistencias:
-    * Buscad las inconsistencias (en rojo).
-    * ¿A qué se deben estas inconsistencias?
-    * Usad el símbolo de interrogación para obtener explicaciones.
-    ![](https://i.imgur.com/toG2dwh.png)
-    ![](https://i.imgur.com/RRC5ycP.png)
-    ![](https://i.imgur.com/trjzAIS.png)
-    ![](https://i.imgur.com/vt3DHOW.png)
-3. Analizad la clasificación del razonador.
-    * Buscad las inferencias de clasificación (en amarillo).
-    * Usad el símbolo de interrogación para obtener explicaciones.
-    Por ejemplo:
-    ![](https://i.imgur.com/vog1OWo.png)
-    ![](https://i.imgur.com/tub17Kf.png)
-    ![](https://i.imgur.com/DFRasWN.png)
-4. Parad el Reasoner.
-![](https://i.imgur.com/SVBh8UG.png)
-
-EJERICCIO 4
-
-1. Cread una ObjectProperty para expresar en qué país se vende.
-    ![](https://i.imgur.com/8ZYl9zU.png)
-    * Asignad dominio y rango
-    ![](https://i.imgur.com/6LDO4JS.png)
-    ![](https://i.imgur.com/qMWtCnz.png)
-2. Cread una subpropiedad de `hasIngredient` para poder representar el relleno del borde.
-    ![](https://i.imgur.com/P96sArR.png)
-    * Asignad dominio y rango.
-    * Asignad alguna restricción, como por ejemplo `disjoint with` o `inverse of`.
-    ![](https://i.imgur.com/R6FRg8P.png)
-3. Cread una DataProperty para poder representar el precio.
-    ![](https://i.imgur.com/9VNXIov.png)
-    * Asignad dominio y rango.
-    ![](https://i.imgur.com/bj4lfrk.png)
-    ![](https://i.imgur.com/sW8Dhk1.png)
-
-
-EJERCICIO 5
-
-* Cread una instancia de DeepPanBase (Individuals).
-    ![](https://i.imgur.com/ICpolfc.png)
-    ![](https://i.imgur.com/iOWlwfh.png)
-* Cread una instancia de Pizza con las siguientes propiedades:
-    * Tiene como país de origen Italia.
-    ![](https://i.imgur.com/CxjmQPV.png)
-    * Tiene como base la instancia de DeepPanBase que habéis creado.
-    ![](https://i.imgur.com/bBLPnB7.png)
-    ![](https://i.imgur.com/CuGmgUF.png)
-* En el menú, arrancad el Reasoner
-    * ¿Es inconsistente? ¿Por qué?
-    ![](https://i.imgur.com/q7K3KEH.png)
-    ![](https://i.imgur.com/nQvPyXY.png)
-* Borrad estas instancias y volved a sincronizar el Reasoner.
-
-
-
-
-EJERCICIO 6
-
-* Cread un topping TurtleTopping.
-    ![](https://i.imgur.com/g64NSIV.png)
-* Cread una Pizza llamada SuperMarioPizza con condiciones necesarias y suficientes: tener como ingredientes champiñones y tortugas.
-    ![](https://i.imgur.com/8ErBBnd.png)
-    ![](https://i.imgur.com/WJhFaEF.png)
-* Cread una instancia de una pizza de tipo Pizza con ingredientes instancias de champiñones y tortugas.
-    ![](https://i.imgur.com/3MFaLT1.png)
-* Sincronizad el Razonador y observad cómo se clasifica.
-    ![](https://i.imgur.com/6pOvyFH.png)
-* Cambiad SuperMarioPizza para que las condiciones sean sólo necesarias y observad la diferencia tras sincronizar.
-    ![](https://i.imgur.com/08LCoH7.png)
-    ![](https://i.imgur.com/oIlHcAP.png)
-
-
 ---
 
 ## Restricciones
@@ -344,28 +256,6 @@ EJERCICIO 6
     * `complementOf`
     * En Protégé: `not classA`
 
-### Ejercicio
-
-* Cread las siguientes pizzas:
-    * Pizza con marisco: contiene como mínimo marisco.
-    ![](https://i.imgur.com/cLDTWyK.png)
-    * Pizza de marisco: todos los ingredientes son de marisco.
-    ![](https://i.imgur.com/yQyBa7z.png)
-    * Pizza ecléctica: mínimo 10 ingredientes.
-    ![](https://i.imgur.com/cIrgLPY.png)
-    * Pizza de oferta: máximo 2 ingredientes.
-    ![](https://i.imgur.com/qVOBBq2.png)
-    * Pizza binaria: exactamente 2 ingredientes.
-    ![](https://i.imgur.com/5Qx7m3s.png)
-    * Pizza triqueso: exactamente 3 ingredientes, todos de queso.
-    ![](https://i.imgur.com/hoHQXsE.png)
-    * Pizza escandinava:
-        * Tendréis que editar en texto libre (Class Expression Editor) y también editar la clase Country.
-        * Utilizad or y value (tenéis ejemplos en American y en la guía).
-    ![](https://i.imgur.com/XpshZM0.png)
-    * Pizza aburrida especial: pizzas que no sean InterestingPizza, pero que estén en la unión entre las MeatyPizza y las CheesyPizza.
-    ![](https://i.imgur.com/IF4KGIu.png)
-
 ---
 
 ## Propiedades
@@ -389,26 +279,6 @@ EJERCICIO 6
     * Si P es reflexiva y una instancia A tiene P, P se aplica a la instancia de A.
 * **Propiedad Irreflexiva**
     * Si P es reflexiva y una instancia A tiene P, P no se puede aplicar a la instancia de A.
-
-
-### Ejercicio
-
-1. Cread una propiedad funcional que asigne un creador a una NamedPizza (tendréis que crear clases).
-    * Asignad dos creadores a una instancia de NamedPizza.
-    ![](https://i.imgur.com/Kc3WqJF.png)
-    * Sincronizad el Razonador.
-    * Qué inferencia ha hecho?
-    Ha determinado que las dos creadoras son el mismo individual.
-    ![](https://i.imgur.com/WsRz1MS.png)
-    ![](https://i.imgur.com/VFT3lAU.png)
-2. Identificad los creadores como Different Individuals y resincronizad.
-    ![](https://i.imgur.com/Ca1gcoN.png)
-3. Cread una propiedad transitiva que permita representar que la creación de una NamedPizza está influenciada por otra.
-    ![](https://i.imgur.com/ZizN2ab.png)
-4. Cread una propiedad simétrica que permita expresar que dos ingredientes combinan bien.
-    ![](https://i.imgur.com/lcaLeaA.png)
-5. Observad las características disponibles en las data properties. ¿Tiene sentido?
-    Si. Solo está disponible la `Funcional`.
 
 ---
 ## Referencias 

@@ -2,7 +2,14 @@
 
 ###### tags: `SID-lab`
 
-[ToC]
+* [Ejercicio 1](#ejercicio-1)
+* [Ejercicio 2](#ejercicio-2)
+* [Ejercicio 3](#ejercicio-3)
+* [Ejercicio 4](#ejercicio-4)
+* [Ejercicio 5](#ejercicio-5)
+* [Ejercicio 6](#ejercicio-6)
+* [Ejercicio 7](#ejercicio-7)
+* [Ejercicio 8](#ejercicio-8)
 
 ---
 
@@ -10,12 +17,12 @@
 
 1. Descargad la ontología (https://raw.githubusercontent.com/owlcs/pizza-ontology/master/pizza.owl) y cargarla en Pretégé.
 2. Añadid algún comentario (Annotations).
-    **PNG 1**
+    ![](images/ontology1/exercises/1.png)
 3. Cread una subclase de Thing (Entities).
-    **PNG 2**
+    ![](images/ontology1/exercises/2.png)
 4. Cread un hermano y una subclase de esta clase.
 5. Haced que la clase y su hermano sean disjuntas (Disjoint With). No hace falta hacerlo para las dos.
-    **PNG 3**
+    ![](images/ontology1/exercises/3.png)
 
 ---
     
@@ -24,14 +31,15 @@
 Observad la diferencia entre `NamedPizza` y `RealItalianPizza`:
 1. ¿Cuál es primitiva y cuál equivalente?
     `NamedPizza` es la primitiva y `RealItalianPizza` es la equivalente.
-    **PNG 4**
-    **PNG 5**
+    ![](images/ontology1/exercises/4.png)
+    ![](images/ontology1/exercises/5.png)
 3. ¿Cuáles son las condiciones suficientes para que una pizza sea `RealItalianPizza`?
     Que sea una `Pizza` y que tenga como valor de `hasCountryOfOrigin`: `Italy`.
-    **PNG 6**
+    
+    ![](images/ontology1/exercises/6.png)
 5. ¿Qué condiciones añade a las suficientes?
     Que tenga `only ThinAndCrispyBase`.
-    **PNG 7**
+    ![](images/ontology1/exercises/7.png)
     
     
 ---
@@ -43,39 +51,44 @@ Observad la diferencia entre `NamedPizza` y `RealItalianPizza`:
     * Buscad las inconsistencias (en rojo).
     * ¿A qué se deben estas inconsistencias?
     * Usad el símbolo de interrogación para obtener explicaciones.
-    **PNG 8**
-    **PNG 9**
-    **PNG 10**
-    **PNG 11**
+    
+    ![](images/ontology1/exercises/8.png)
+    ![](images/ontology1/exercises/9.png)
+    ![](images/ontology1/exercises/10.png)
+    ![](images/ontology1/exercises/11.png)
 3. Analizad la clasificación del razonador.
     * Buscad las inferencias de clasificación (en amarillo).
     * Usad el símbolo de interrogación para obtener explicaciones.
     Por ejemplo:
-    **PNG 12**
-    **PNG 13**
-    **PNG 14**
+    ![](images/ontology1/exercises/12.png)
+    ![](images/ontology1/exercises/13.png)
+    ![](images/ontology1/exercises/14.png)
 4. Parad el Reasoner.
-    **PNG 15**
+
+    ![](images/ontology1/exercises/15.png)
 
 ---
 
 ## Ejercicio 4
 
 1. Cread una ObjectProperty para expresar en qué país se vende.
-    **PNG 16**
+
+    ![](images/ontology1/exercises/16.png)
     * Asignad dominio y rango
-    **PNG 17**
-    **PNG 18**
+    ![](images/ontology1/exercises/17.png)
+    ![](images/ontology1/exercises/18.png)
 2. Cread una subpropiedad de `hasIngredient` para poder representar el relleno del borde.
-    **PNG 19**
+    ![](images/ontology1/exercises/19.png)
     * Asignad dominio y rango.
     * Asignad alguna restricción, como por ejemplo `disjoint with` o `inverse of`.
-    **PNG 20**
+    
+    ![](images/ontology1/exercises/20.png)
 3. Cread una DataProperty para poder representar el precio.
-    **PNG 21**
+
+    ![](images/ontology1/exercises/21.png)
     * Asignad dominio y rango.
-    **PNG 22**
-    **PNG 23**
+    ![](images/ontology1/exercises/22.png)
+    ![](images/ontology1/exercises/23.png)
     
     
 ---
@@ -83,18 +96,21 @@ Observad la diferencia entre `NamedPizza` y `RealItalianPizza`:
 ## Ejercicio 5
 
 * Cread una instancia de DeepPanBase (Individuals).
-    **PNG 24**
-    **PNG 25**
+
+    ![](images/ontology1/exercises/24.png)
+    ![](images/ontology1/exercises/25.png)
 * Cread una instancia de Pizza con las siguientes propiedades:
     * Tiene como país de origen Italia.
-    **PNG 26**
+    ![](images/ontology1/exercises/26.png)
     * Tiene como base la instancia de DeepPanBase que habéis creado.
-    **PNG 27**
-    **PNG 28**
+   
+    ![](images/ontology1/exercises/27.png)
+    ![](images/ontology1/exercises/28.png)
 * En el menú, arrancad el Reasoner
     * ¿Es inconsistente? ¿Por qué?
-    **PNG 29**
-    **PNG 30**
+
+    ![](images/ontology1/exercises/29.png)
+    ![](images/ontology1/exercises/30.png)
 * Borrad estas instancias y volved a sincronizar el Reasoner.
 
 ---
@@ -103,17 +119,18 @@ Observad la diferencia entre `NamedPizza` y `RealItalianPizza`:
 
 
 * Cread un topping TurtleTopping.
-    **PNG 31**
+
+    ![](images/ontology1/exercises/31.png)
 * Cread una Pizza llamada SuperMarioPizza con condiciones necesarias y suficientes: tener como ingredientes champiñones y tortugas.
-    **PNG 32**
-    **PNG 33**
+    ![](images/ontology1/exercises/32.png)
+    ![](images/ontology1/exercises/33.png)
 * Cread una instancia de una pizza de tipo Pizza con ingredientes instancias de champiñones y tortugas.
-    **PNG 34**
+    ![](images/ontology1/exercises/34.png)
 * Sincronizad el Razonador y observad cómo se clasifica.
-    **PNG 35**
+    ![](images/ontology1/exercises/35.png)
 * Cambiad SuperMarioPizza para que las condiciones sean sólo necesarias y observad la diferencia tras sincronizar.
-    **PNG 36**
-    **PNG 37**
+    ![](images/ontology1/exercises/36.png)
+    ![](images/ontology1/exercises/37.png)
     
 ---
 
@@ -121,23 +138,30 @@ Observad la diferencia entre `NamedPizza` y `RealItalianPizza`:
 
 * Cread las siguientes pizzas:
     * Pizza con marisco: contiene como mínimo marisco.
-    **PNG 38**
+    
+    ![](images/ontology1/exercises/38.png)
     * Pizza de marisco: todos los ingredientes son de marisco.
-    **PNG 39**
+   
+    ![](images/ontology1/exercises/39.png)
     * Pizza ecléctica: mínimo 10 ingredientes.
-    **PNG 40**
+   
+    ![](images/ontology1/exercises/40.png)
     * Pizza de oferta: máximo 2 ingredientes.
-    **PNG 41**
+   
+    ![](images/ontology1/exercises/41.png)
     * Pizza binaria: exactamente 2 ingredientes.
-    **PNG 42**
+   
+    ![](images/ontology1/exercises/42.png)
     * Pizza triqueso: exactamente 3 ingredientes, todos de queso.
-    **PNG 43**
+    
+    ![](images/ontology1/exercises/43.png)
     * Pizza escandinava:
         * Tendréis que editar en texto libre (Class Expression Editor) y también editar la clase Country.
         * Utilizad or y value (tenéis ejemplos en American y en la guía).
-    **PNG 44**
+     
+    ![](images/ontology1/exercises/44.png)
     * Pizza aburrida especial: pizzas que no sean InterestingPizza, pero que estén en la unión entre las MeatyPizza y las CheesyPizza.
-    **PNG 45**
+    ![](images/ontology1/exercises/45.png)
     
 
 ---
@@ -146,17 +170,18 @@ Observad la diferencia entre `NamedPizza` y `RealItalianPizza`:
 
 1. Cread una propiedad funcional que asigne un creador a una NamedPizza (tendréis que crear clases).
     * Asignad dos creadores a una instancia de NamedPizza.
-    **PNG 46**
+    ![](images/ontology1/exercises/46.png)
     * Sincronizad el Razonador.
     * Qué inferencia ha hecho?
     Ha determinado que las dos creadoras son el mismo individual.
-    **PNG 47**
-    **PNG 48**
+    ![](images/ontology1/exercises/47.png)
+    ![](images/ontology1/exercises/48.png)
 2. Identificad los creadores como Different Individuals y resincronizad.
-    **PNG 49**
+
+    ![](images/ontology1/exercises/49.png)
 3. Cread una propiedad transitiva que permita representar que la creación de una NamedPizza está influenciada por otra.
-    **PNG 50**
+    ![](images/ontology1/exercises/50.png)
 4. Cread una propiedad simétrica que permita expresar que dos ingredientes combinan bien.
-    **PNG 51**
+    ![](images/ontology1/exercises/51.png)
 5. Observad las características disponibles en las data properties. ¿Tiene sentido?
     Si. Solo está disponible la `Funcional`.
