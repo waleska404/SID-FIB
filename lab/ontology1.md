@@ -95,7 +95,7 @@ https://www.w3.org/TR/rdf-schema/
     * Básico.
     * Taxonomía con restricciones simples.
 
-![](https://i.imgur.com/iZabIdA.png)
+![](images/ontology1/1.png)
 
 
 ### OWL Full
@@ -111,7 +111,7 @@ https://www.w3.org/TR/rdf-schema/
 * Permite el uso de todas las restricciones definidas en OWL.
 * Sin restricciones sobre los axiomas (pueden ser inconsistentes).
 
-![](https://i.imgur.com/kFImHy9.png)
+![](images/ontology1/2.png)
 
 
 ### OWL DL
@@ -136,7 +136,7 @@ https://www.w3.org/TR/rdf-schema/
 
 ## Ciclo de desarrollo de una Ontología
 
-![](https://i.imgur.com/rX4qgzO.png)
+![](images/ontology1/3.png)
 
 **1. Determine Scope**
 * Cual es el dominio que intentamos cubrir con la Ontología.
@@ -173,13 +173,15 @@ https://www.w3.org/TR/rdf-schema/
     * ¿Cuándo agrupamos dos clases en la misma superclase?
 * **Tipos de clases:**
     * Primitiva: Necessary conditions.
-        * Si algo reúne las condiciones no es necesariamente obligatorio que sea un miembro de la clase. ![](https://i.imgur.com/pthpE6G.png)
+        * Si algo reúne las condiciones no es necesariamente obligatorio que sea un miembro de la clase. 
+        ![](images/ontology1/4.png)
         * PERO: Un elemento escogido al azar que sabemos que es miembro de la clase, sabemos que reúne las condiciones.
         * ¿Qué ocurre con un elemento escogido al azar que sabemos que reúne las condiciones? Es posible que pertenezca a la clase pero también es posible que no.
     * Equivalente: Necessary conditions and sufficient conditions.
         * Si algo reúne las condiciones es suficiente para decir que es un miembro de la clase.
         * Un elemento escogido al azar que sabemos que es miembro de la clase, sabemos que reúne las condiciones.
-        * ¿Qué ocurre con un elemento escogido al azar que sabemos que reúne las condiciones? Sabemos con certeza que pertenece a la clase. ![](https://i.imgur.com/jkknzZo.png)
+        * ¿Qué ocurre con un elemento escogido al azar que sabemos que reúne las condiciones? Sabemos con certeza que pertenece a la clase. 
+        ![](images/ontology1/5.png)
 
 **5. Define Properties**
 * Asociadas a la clases (Dominio-Rango):
@@ -207,7 +209,7 @@ https://www.w3.org/TR/rdf-schema/
 ## Restricciones
 
 * Algunas restricciones están disponibles en el editor de Protégé:
-    ![](https://i.imgur.com/ynakpQZ.png)
+    ![](images/ontology1/6.png)
 * Guía para editar en texto libre: http://protegeproject.github.io/protege/class-expressionsyntax/
 
 ### Axiomas de Clase
@@ -241,8 +243,8 @@ https://www.w3.org/TR/rdf-schema/
 
 * `hasValue` restrictions:
     * Equivalente a enumeraciones de instancias.
-    * Usa el símbolo: ![](https://i.imgur.com/zGuzX0c.png)
-    ![](https://i.imgur.com/GbYRltg.png)
+    * Usa el símbolo: ![](images/ontology1/7.png)
+    ![](images/ontology1/8.png)
 
 ### Operaciones de Conjuntos
 
@@ -267,7 +269,7 @@ https://www.w3.org/TR/rdf-schema/
     * Donde el dominio y el rango, se intercambian.
 * **Propiedad Funcional**
     * Cuando A y B están relacionados mediante una propiedad funcional sólo una instancia de B puede estar relacionada con A. ¿Qué ocurre si más de una instancia de B está relacionada con A?
-    ![](https://i.imgur.com/fzaTIXW.png)
+    ![](images/ontology1/9.png)
 * **Propiedad Funcional Inversa** (e.g. número de serie).
 * **Propiedad Transitiva**
     * Si una instancia de A se relaciona con una de B y una de B con C, la instancia de A se relaciona con la de C.
