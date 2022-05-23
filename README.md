@@ -10,7 +10,7 @@
 
 | Introduction   	| Agents  	| Ontologies 	| Agent Communication | Coordination | Negotiation |
 |----------------	|----------	|------------	|------------	|------------	|------------	|
-| [Introduction](.theory/intro2sid.md) 	| [Origins](./theory/origins.md) | [Motivation & Several Views of Ontologies] |
+| [Introduction](theory/intro2sid.md) 	| [Origins](/theory/agents/origins.md) | [Motivation & Several Views of Ontologies] |
 |         | [Agent Types] | [Ontologies: Agreements, Types, and Examples] |
 |         | [Agent Architectures] | [Elements, Design & Development] |
 |         | [BDI] |   [Formal Foundations and Languages] |
