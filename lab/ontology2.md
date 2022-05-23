@@ -2,7 +2,28 @@
 
 ###### tags: `SID-lab`
 
-[ToC]
+* [Introducción](#introducción)
+* [Consultas](#consultas)
+   * [Estructura](#estructura)
+   * [Ejemplos](#ejemplos)
+* [Modificadores Útiles](#modificadores-útiles)
+* [DML](#dml)
+* [JENA](#jena)
+   * [Arquitectura](#arquitectura)
+   * [Set up](#set-up)
+   * [JenaTester](#jenatester)
+   * [Cargar Ontología](#cargar-ontología)
+   * [Niveles de Inferencia](#niveles-de-inferencia)
+   * [Guardar ontología](#guardar-ontología)
+   * [Listar instancias](#listar-instancias)
+   * [Agrupar instancias por clase](#agrupar-instancias-por-clase)
+   * [Consultar propiedades](#consultar-propiedades)
+   * [Añadir elementos a la ontología](#añadir-elementos-a-la-ontología)
+   * [Consultar con SPARQL](#consultar-con-sparql)
+   * [Usar diferentes niveles de inferencia](#usar-diferentes-niveles-de-inferencia)
+* [Referencias](#referencias)
+
+
 
 ---
 
