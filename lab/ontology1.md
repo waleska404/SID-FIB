@@ -12,7 +12,7 @@
    * [OWL DL](#owl-dl)
    * [OWL Lite](#owl-lite)
 * [Ciclo de desarrollo de una Ontología](#ciclo-de-desarrollo-de-una-ontología)
-* [Restricciones](#restricciones)
+* [Restricciones](#restricciones)m
    * [Axiomas de Clase](#axiomas-de-clase)
    * [Quantifier Restrictions](#quantifier-restrictions)
    * [Cardinality Restrictions](#cardinality-restrictions)
@@ -95,7 +95,7 @@ https://www.w3.org/TR/rdf-schema/
     * Básico.
     * Taxonomía con restricciones simples.
 
-![](https://i.imgur.com/iZabIdA.png)
+![](1.png)
 
 
 ### OWL Full
@@ -111,7 +111,7 @@ https://www.w3.org/TR/rdf-schema/
 * Permite el uso de todas las restricciones definidas en OWL.
 * Sin restricciones sobre los axiomas (pueden ser inconsistentes).
 
-![](https://i.imgur.com/kFImHy9.png)
+![](images/ontology1/1.png)
 
 
 ### OWL DL
