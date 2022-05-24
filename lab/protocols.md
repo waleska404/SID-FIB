@@ -2,7 +2,19 @@
 
 ###### tags: `SID-lab`
 
-[ToC]
+
+* [Interacciones entre agentes](#interacciones-entre-agentes)
+* [¿Por qué se comunican?](#¿por-qué-se-comunican?)
+* [Los agentes como base de conocimiento](#los-agentes-como-base-de-conocimiento)
+* [Niveles en la comunicación](#niveles-en-la-comunicación)
+* [FIPA-ACL](#fipa-acl)
+   * [Protocolo de interacción](#protocolo-de-interacción)
+   * [Protocolos FIPA](#protocolos-fipa)
+   * [FIPA Contract-Net protocol](#fipa-contract-net-protocol)
+   * [Soporte a los protocolos de interacción](#soporte-a-los-protocolos-de-interacción)
+   * [AchieveREInitiator/Responder](#achievereinitiator-and-responder)
+* [Limitaciones de los protocolos](#limitaciones-de-los-protocolos)
+
 
 ---
 
@@ -104,7 +116,7 @@
 * Definen las secuencias de mensajes de un diálogo particular como una máquina de estados finitos determinista.
 * Cada protocolo está diseñado para un tipo de diálogo. Escoged sabiamente.
 
-![](https://i.imgur.com/oKf4hCd.png)
+![](images/protocols/1.png)
 
 * Secuencias predefinidas de intercambio de mensajes. En todos ellos se distingue:
     *  Un **Initiator**, que permite gestionar varios Responders a la vez; es un comportamiento que:
@@ -122,14 +134,14 @@
     * Propose: Propone a otro agente que ejecute una acción bajo unas condiciones. El receptor acepta o rechaza la propuesta.
     * Contract net: Protocolo complejo que permite a un grupo de agentes negociar propuestas para llevar a cambo una acción. El iniciador del protocolo recibe propuestas y selecciona la que más le interese.
 
-![](https://i.imgur.com/hZKn4CA.png)
-![](https://i.imgur.com/m9ZspCU.png)
-![](https://i.imgur.com/jSqySdt.png)
-![](https://i.imgur.com/Qlr5vns.png)
+![](images/protocols/2.png)
+![](images/protocols/3.png)
+![](images/protocols/4.png)
+![](images/protocols/5.png)
 
 ### FIPA Contract-Net protocol
 
-![](https://i.imgur.com/8E4TY3M.png)
+![](images/protocols/6.png)
 
 * ContractNetInitiatorAgent
 * ContractNetResponderAgent
@@ -150,7 +162,7 @@
     * De los timeouts (si hay alguno).
 * Proveen de métodos de callback que se deben redefinir para tomar las acciones necesarias en los diferentes estados del protocolo; por ejemplo, cuando un mensaje es recibido o expira un timeout.
 
-### AchieveREInitiator/Responder
+### AchieveREInitiator and Responder
 
 * A lo largo de las últimas versiones JADE se han ido aglutinando los protocolos bajo una misma interfaz: **AchieveREInitiator/Responder** o **SimpleAchieveREInitiator/Responder** (más rápido pero con menos opciones).
 * En general con esta clase podremos iniciar los protocolos más típicos (e.g., Request, Query).
