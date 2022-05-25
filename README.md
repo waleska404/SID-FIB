@@ -10,11 +10,20 @@
 
 | Introduction   	| Agents  	| Ontologies 	| Agent Communication | Coordination | Negotiation |
 |----------------	|----------	|------------	|------------	|------------	|------------	|
-| [Introduction](theory/intro2sid.md) 	| [Origins](/theory/agents/origins.md) | [Motivation & Several Views of Ontologies] |
+| [Introduction](theory/intro2sid.md) 	| [Origins](/theory/agents/origins.md) | [Motivation & Several Views of Ontologies] 
 |         | [Agent Types] | [Ontologies: Agreements, Types, and Examples] |
 |         | [Agent Architectures] | [Elements, Design & Development] |
 |         | [BDI] |   [Formal Foundations and Languages] |
 |         | [Discussion About Agents] | [Ontologies and Knowledge Representation] |
+
+
+# Lab
+
+| Introduction   	| BDI for JADE	| Ontologies 	| Protocols | 
+|----------------	|----------	|------------	|------------	|
+| [Introduction](lab/intro.md) 	| [BDI for JADE part I](/lab/bdi4jade1.md) | [Ontologies part I](/lab/ontology1.md) | [Protocols](/lab/protocols.md) |
+| [Introduction to JADE](lab/intro2jade.md) | [BDI for JADE part II](/lab/bdi4jade2.md) | [Ontologies part I - Exercises](/lab/ontology1-exercises.md) |
+|         |    | [Ontologies part II](/lab/ontology2.md) |
 
 
 # Evaluación
