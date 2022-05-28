@@ -18,6 +18,7 @@
 * **Intentions**: Are compromises to achieve a given state.
 
 🢂 <u>BDI architectures</u> are aimed to model the rational or the intentional **agenciality**.
+
 🢂 <u>Symbols</u> representing the world do correspond with **mental attitudes**.
 
 ---
@@ -70,13 +71,13 @@ Intentional Attitudes play different roles in the  Agent’s personality definit
 
 * Ψ --- Ψ is necessary. ⮞ Modal Logic
 * ◊Ψ --- Ψ is possible. ⮞ Modal Logic
-.........................
+* ...............................................
 * FΨ --- At some point in the future Ψ will be true. ⮞ Temporal Logic
 * PΨ --- At some point in the past Ψ was true. ⮞ Temporal Logic
-.........
+* ...............................................
 * BiΨ --- Agent i believes Ψ. ⮞ Doxastic Logic
 * KiΨ --- Agent i knows Ψ. ⮞ Doxastic Logic
-.........
+* ...............................................
 * OiΨ --- Agent i is obliged to Ψ. ⮞ Deontic Logic
 
 
