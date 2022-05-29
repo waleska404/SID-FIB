@@ -14,7 +14,7 @@
 |         | [Agent Types](/theory/agents/types.md) | [Ontologies: Agreements, Types, and Examples] |
 |         | [Agent Architectures](/theory/agents/agent-architectures.md) | [Elements, Design & Development] |
 |         | [BDI](/theory/agents/bdi.md) |   [Formal Foundations and Languages] |
-|         | [Discussion About Agents] | [Ontologies and Knowledge Representation] |
+|         | [Discussion About Agents](/theory/agents/discussion.md) | [Ontologies and Knowledge Representation] |
 
 
 # Lab
