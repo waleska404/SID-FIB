@@ -4,7 +4,9 @@
 
 ###### tags: `SID-teo`
 
-[ToC]
+* [Agents VS Objects](#agents-vs-objects)
+* [Agents VS Expert Systems](#agents-vs-expert-systems)
+* [Technological Challenges](#technological-challenges)
 
 ---
 
