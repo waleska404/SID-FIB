@@ -5,8 +5,6 @@
 
 ###### tags: `SID-teo`
 
-[ToC]
-
 ---
 
 > One can define an agent’s solving problem mechanism in terms of its **beliefs**, how it proceeds to achieve its goals, its capabilities and relate its behaviour with its individual characteristics and attributes as its **preferences**. - *Haddadi96*
