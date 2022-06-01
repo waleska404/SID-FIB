@@ -17,7 +17,7 @@
 * [Intentions in Practical Reasoning](#intentions-in-practical-reasoning)
 * [Agents and Actions](#agents-and-actions)
 * [Logical Omniscience](#logical-omniscience)
-   * [Logical Omniscience Problem]
+   * [Logical Omniscience Problem](#logical-omniscience-problem)
 * [Intentions - Beliefs - Desires]
    * [Intentions and Beliefs]
    * [Desires and Intentions]
