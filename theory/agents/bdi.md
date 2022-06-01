@@ -1,9 +1,35 @@
 # BDI: Belief, Desire, Intention
 
-[//]: # (Poner aqui link al pdf/quizas no es muy legal colgar las transpas de otros)
-
-
 ###### tags: `SID-teo`
+
+* [Intentionality]
+   * [Agent = Intentional System]
+   * [Intentional Attitudes]
+* [Modalities]
+   * [Examples of unary modal operators]
+* [Modal Logic]
+   * [Semantics]
+   * [Basic Equivalences]
+   * [Properties]
+   * [Epistemic Logic]
+   * [Systems in Modal Logics]
+* [Knowledge vs Beliefs]
+* [Intentions in Practical Reasoning]
+* [Agents and Actions]
+* [Logical Omniscience]
+   * [Logical Omniscience Problem]
+* [Intentions - Beliefs - Desires]
+   * [Intentions and Beliefs]
+   * [Desires and Intentions]
+* [BDI: A Logic Framework]
+* [Mental States of an Agent]
+   * [Agent Activity Diagram]
+* [Beliefs about Competences]
+* [Implementing BDI Agents]
+   * [Agent Control Loop]
+   * [Deliberation]
+   * [Problems]
+* [Glosary]
 
 ---
 
