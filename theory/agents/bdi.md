@@ -2,14 +2,14 @@
 
 ###### tags: `SID-teo`
 
-* [Intentionality]
-   * [Agent = Intentional System]
-   * [Intentional Attitudes]
-* [Modalities]
-   * [Examples of unary modal operators]
-* [Modal Logic]
-   * [Semantics]
-   * [Basic Equivalences]
+* [Intentionality](#intentionality)
+   * [Agent = Intentional System](#Agent-=Intentional-System)
+   * [Intentional Attitudes](#intentional-attitudes)
+* [Modalities](#modalities)
+   * [Examples of unary modal operators](#examples-of-unary-modal-operators)
+* [Modal Logic](#modal-logic)
+   * [Semantics](#semantics)
+   * [Basic Equivalences](#basic-equivalences)
    * [Properties]
    * [Epistemic Logic]
    * [Systems in Modal Logics]
