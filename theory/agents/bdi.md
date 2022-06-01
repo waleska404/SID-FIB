@@ -10,13 +10,13 @@
 * [Modal Logic](#modal-logic)
    * [Semantics](#semantics)
    * [Basic Equivalences](#basic-equivalences)
-   * [Properties]
-   * [Epistemic Logic]
-   * [Systems in Modal Logics]
-* [Knowledge vs Beliefs]
-* [Intentions in Practical Reasoning]
-* [Agents and Actions]
-* [Logical Omniscience]
+   * [Properties](#properties)
+   * [Epistemic Logic](#epistemic-logic)
+   * [Systems in Modal Logics](#systems-in-modal-logics)
+* [Knowledge vs Beliefs](#knowledge-vs-beliefs)
+* [Intentions in Practical Reasoning](#intentions-in-practical-reasoning)
+* [Agents and Actions](#agents-and-actions)
+* [Logical Omniscience](#logical-omniscience)
    * [Logical Omniscience Problem]
 * [Intentions - Beliefs - Desires]
    * [Intentions and Beliefs]
