@@ -18,18 +18,18 @@
 * [Agents and Actions](#agents-and-actions)
 * [Logical Omniscience](#logical-omniscience)
    * [Logical Omniscience Problem](#logical-omniscience-problem)
-* [Intentions - Beliefs - Desires]
-   * [Intentions and Beliefs]
-   * [Desires and Intentions]
-* [BDI: A Logic Framework]
-* [Mental States of an Agent]
-   * [Agent Activity Diagram]
-* [Beliefs about Competences]
-* [Implementing BDI Agents]
-   * [Agent Control Loop]
-   * [Deliberation]
-   * [Problems]
-* [Glosary]
+* [Intentions - Beliefs - Desires](#intentions-beliefs-desires)
+   * [Intentions and Beliefs](#intentions-and-beliefs)
+   * [Desires and Intentions](#desires-and-intentions)
+* [BDI: A Logic Framework](#bdi:-a-logic-framework)
+* [Mental States of an Agent](#mental-states-of-an-agent)
+   * [Agent Activity Diagram](#agent-activity-diagram)
+* [Beliefs about Competences](#beliefs-about-competences)
+* [Implementing BDI Agents](#implementing-bdi-agents)
+   * [Agent Control Loop](#agent-control-loop)
+   * [Deliberation](#deliberation)
+   * [Problems](#problems)
+* [Glosary](#glosary)
 
 ---
 
