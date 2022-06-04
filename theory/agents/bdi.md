@@ -148,11 +148,11 @@ Intentional Attitudes play different roles in the  Agent’s personality definit
 
 ### Epistemic Logic
 
-:::warning
+
 **Lógica epistémica**: campo de la lógica modal que se ocupa del razonamiento sobre el conocimiento. 
 
 **Axioma**: principio indemostrables sobre los que, por medio de un razonamiento deductivo, se construye una teoría.
-:::
+
 
 
 * **K:** An agent’s knowledge is closed under implication, that is an agent knows all consequences of its **valid beliefs**.
