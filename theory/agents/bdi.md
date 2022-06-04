@@ -117,7 +117,7 @@ Intentional Attitudes play different roles in the  Agent’s personality definit
     *   necessity.
     *  ◊ possibility.
 
-![](https://i.imgur.com/JC2MGeM.png)
+![](../images/agents/bdi/1.png)
 
 * **<u>Semantic</u>**: defined as a model ==**M=<W,R,π>**==
     * **W** is a set of **possible worlds**.
@@ -136,15 +136,15 @@ Intentional Attitudes play different roles in the  Agent’s personality definit
 
 ### Semantics
 
-![](https://i.imgur.com/aJOrYxP.png)
+![](../images/agents/bdi/2.png)
 
 ### Basic Equivalences
 
-![](https://i.imgur.com/nSfRHBi.png)
+![](../images/agents/bdi/3.png)
 
 ### Properties
 
-![](https://i.imgur.com/pcIYQTg.png)
+![](../images/agents/bdi/4.png)
 
 ### Epistemic Logic
 
