@@ -172,14 +172,14 @@ Intentional Attitudes play different roles in the  Agent’s personality definit
     * S5+ = KD45
 
 
-![](https://i.imgur.com/fsD221N.png)
-![](https://i.imgur.com/4frndE6.png)
+![](../images/agents/bdi/5.png)
+![](../images/agents/bdi/6.png)
 
 
 * The K System:
 
 
-![](https://i.imgur.com/JtUu48x.png)
+![](../images/agents/bdi/7.png)
 
 
 
@@ -189,7 +189,7 @@ Intentional Attitudes play different roles in the  Agent’s personality definit
 ## Knowledge vs Beliefs
 
 **Knowledge** can be distinguished from **beliefs** considering that <u>knowledge is a belief that is true</u>:
-![](https://i.imgur.com/eNXMLM7.png)
+![](../images/agents/bdi/8.png)
 
 * K~i~ φ denotates that “an agent i knows φ”
 
@@ -313,14 +313,14 @@ The necessity rule and the Knowledge axiom together imply that agent <u>**believ
             G~a~ φ = MIS a,a φ
 * **Intentions** correspond to the decision made when adopting a **goal**. An agent only adopts goals that he knows he can achieve.
     * Intention: Is the will to accomplish a desire or to perform an action.
-    * ![](https://i.imgur.com/ADQ92lh.png)
+    * ![](../images/agents/bdi/9.png)
     * An intention is **fulfilled** by the **actions** oriented to achieve a **goal**.
 
 
 
 ### Agent Activity Diagram
 
-![](https://i.imgur.com/vOliLRw.png)
+![](../images/agents/bdi/10.png)
 
 
 ---
@@ -330,12 +330,12 @@ Who can do what?
 ↳ By task delegation.
 ↳ By collaboration.
 
-![](https://i.imgur.com/izWhGih.png)
+![](../images/agents/bdi/11.png)
 
 * Introspective view:
     * Bel(a, (Bel (a, Bel (a, Bel( .... Bel(a,a))...)
 * Own model:
-    ![](https://i.imgur.com/3HMr1qI.png)
+    ![](../images/agents/bdi/12.png)
 
 ---
 ## Implementing BDI Agents
@@ -343,7 +343,7 @@ Who can do what?
 ### Agent Control Loop
 
 This is the abstract algorithm for the BDI reasoning cycle:
-![](https://i.imgur.com/Bc37shB.png)
+![](../images/agents/bdi/13.png)
 
 ### Deliberation
 
@@ -371,7 +371,7 @@ This is the abstract algorithm for the BDI reasoning cycle:
     * An agent that constantly reconsiders its attentions may spend insufficient time actually working to achieve them, and hence runs the risk of never actually achieving them.
     * Solution: incorporate an explicit **meta-level control** component, that decides whether or not to reconsider.
 
-![](https://i.imgur.com/DwpBSEO.png)
+![](../images/agents/bdi/14.png)
 
 ---
 ## Glosary
