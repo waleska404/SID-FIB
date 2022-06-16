@@ -49,13 +49,13 @@ Agents can be considered as (virtual) Knowledge Bases.
 
 
 ### Why Ontologies?
-:::warning
+
 * To share **common understanding** of the structure of information among people or software agents.
 * To enable **reuse of domain knowledge**.
 * To make **domain assumptions explicit**.
 * To **separate domain knowledge from the operational knowledge**.
 * To **analyze domain knowledge**.
-:::
+
 ---
 [//]: #(6,7,8)
 ## Ontology & Epistemology
@@ -66,7 +66,7 @@ Agents can be considered as (virtual) Knowledge Bases.
 * The way we think the world is (**ontology**) influences: what we think can be known about it (**epistemology**); how we think it can be investigated (**methodology and research techniques**);
 
 > If it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck.
-> ![](https://i.imgur.com/y5yFPe6.png) [color=#37B9BF]
+> ![](https://i.imgur.com/y5yFPe6.png)
 
 ![](https://i.imgur.com/IEzs6pq.png)
 
@@ -118,7 +118,7 @@ Agents can be considered as (virtual) Knowledge Bases.
     > * http://www-ksl.stanford.edu/kst/what-is-an-ontology.html
 * Ontology aims to study the **categories that exist in a given domain**. The result of this study is an **ontology**.
     * A catalogue of the different kinds of objects that we assume as existing in a given domain **D**, from the perspective of someone that uses a language **L** in order to talk about **D**.
-* ==Elements in ontologies represent **predicates**, **constants**, **concepts** and **relationships**.==
+* Elements in ontologies represent **predicates**, **constants**, **concepts** and **relationships**.
 * An ontology can be seen as the vocabulary that agents need to use in order to talk about a given domain.
 
 ### Ontologies: some assumptions
@@ -150,7 +150,7 @@ Agents can be considered as (virtual) Knowledge Bases.
 * Logic by itself tends to be neutral with respect to meaning:
     * The below reasoning refers to nothing unless we give meaning to the atoms (P = “it rains”, Q = “I’m wet”).
     * ![](https://i.imgur.com/7P4ORKA.png)
-* ==When we combine a logic with an ontology, the ontology provides the logical formalism with the capability to express meanings with its statements.==
+* When we combine a logic with an ontology, the ontology provides the logical formalism with the capability to express meanings with its statements.
 * This is specially useful in higher-level logics:
     * **First-Order Logic**:
         * `citizen(x) → human(x)`
@@ -172,9 +172,7 @@ Agents can be considered as (virtual) Knowledge Bases.
 [//]: #(20,21,22,23,24)
 ## Description Logic
 
-:::warning
 Las **lógicas de descripción**, también llamadas lógicas descriptivas son una familia de lenguajes de representación del conocimiento que pueden ser usados para representar conocimiento terminológico de un dominio de aplicación de una forma estructurada y formalmente bien comprendida. **Many DLs are more expressive than propositional logic but less expressive than first-order logic.**
-:::
 
 Description Logics **overcome the ambiguities of early semantic networks and frames.**
 * First realized in the system KL-One [Brachman and Schmolze, 1985].
@@ -195,7 +193,7 @@ Description Logics **overcome the ambiguities of early semantic networks and fra
         * Elizabeth and Charles are Persons. We write this as Person(Elizabeth), and Person(Charles).
         * Individuals, like “myCar”, have attributes, like “color”, and those attributes have values, like “red”. When this happens we say that red is the colorOf attribute of myCar. We write this as colorOf(myCar, red).
 
-==**Knowledge Base = TBox + ABox**==
+**Knowledge Base = TBox + ABox**
 
 ### Architecture of a DL System
 
