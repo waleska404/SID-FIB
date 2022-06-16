@@ -119,19 +119,19 @@ Intentional Attitudes play different roles in the  Agent’s personality definit
 
 ![](../images/agents/bdi/1.png)
 
-* **<u>Semantic</u>**: defined as a model ==**M=<W,R,π>**==
+* **<u>Semantic</u>**: defined as a model **M=<W,R,π>**
     * **W** is a set of **possible worlds**.
     * **R** is a binary function, called **accessibility function**.
     * **π** is an **assignation function** that determines for each w∈W, the true values of the propositions in W.
 
-> It can be seen as a graph (W, R) with a true value assignation function  that indicates which propositional functions are true and in which node.[color=#37B9BF]
+> It can be seen as a graph (W, R) with a true value assignation function  that indicates which propositional functions are true and in which node.
 
 
 
 * All **<u>valid formulas</u>** are interpreted according to a pair **<M,w>** using the satisfaction function **(M ⊨ p)**.
-    * A formula is ==**<u>satisfactible</u>**== if it is satisfied in at least one pair model/world.
-    * A formula is ==**<u>true</u>**== if satisfactible in each of the worlds of the model.
-    * A formula is ==**<u>valid</u>**== if it is true in each of the model/world pairs.
+    * A formula is **<u>satisfactible</u>** if it is satisfied in at least one pair model/world.
+    * A formula is **<u>true</u>** if satisfactible in each of the worlds of the model.
+    * A formula is **<u>valid</u>** if it is true in each of the model/world pairs.
 
 
 ### Semantics
@@ -273,7 +273,7 @@ The necessity rule and the Knowledge axiom together imply that agent <u>**believ
 * **Means-end Analysis**
     * Intentions may create problems for future deliberations, desires not necessarily.
 * **Keep memory of successes and failures (of intentions)**
-    *  To keep the compromise with a given action; There is no compromise associated to a desire. **==Intentions are desires + compromises to act.==**
+    *  To keep the compromise with a given action; There is no compromise associated to a desire. **Intentions are desires + compromises to act.**
 * **Consistency with beliefs**
     * Intentions ought to be consistent with the beliefs but not necessarily with the desires.
 
