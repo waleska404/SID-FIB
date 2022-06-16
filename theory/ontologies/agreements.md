@@ -4,8 +4,16 @@
 
 ###### tags: `SID-teo`
 
-[ToC]
-
+* [Ontological Agreements](#ontological-agreements)
+* [Ontology Types](#ontology-types)
+* [Hierarchy](#hierarchy)
+* [Predicate Calculus Representations](#predicate-calculus-representations)
+* [Reasoning Using Logic](#reasoning-using-logic)
+* [Fundamental Design Questions](#fundamental-design-questions)
+* [Major Lexical Relations](#major-lexical-relations)
+* [Examples](#examples)
+* [Examples of Domain specific Ontologies](#examples-of-domain-specific-ontologies)
+* [More Examples](#more-examples)
 
 ---
 
@@ -158,7 +166,7 @@ mew , purr , furry –Syntagmatic
 
 ---
 
-## Examples of Domain-specific Ontologies
+## Examples of Domain specific Ontologies
 
 ### Ontology of GOD
 
