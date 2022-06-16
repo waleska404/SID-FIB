@@ -5,7 +5,16 @@
 
 ###### tags: `SID-teo`
 
-[ToC]
+* [Motivation](#motivation)
+* [Ontology and Epistemology](#ontology-and-epistemology)
+* [Origins](#origins)
+* [Definitions](#definitions)
+* [Ontologies in Logics](#ontologies-in-logics)
+* [Description Logic](#description-logic)
+* [Ontological extension](#ontological-extension)
+* [An Example about Family Relationships](#an-example-about-family-relationships)
+* [Classes and Relations in Simple Time](#classes-and-relations-in-simple-time)
+
 
 ---
 
@@ -58,7 +67,7 @@ Agents can be considered as (virtual) Knowledge Bases.
 
 ---
 [//]: #(6,7,8)
-## Ontology & Epistemology
+## Ontology and Epistemology
 
 * **Ontology**: the question of <u>what reality is like, the basic elements it contains.</u>
 * **Epistemology**: <u>study of the criteria by which we can know what does and does not constitute warranted, or scientific, knowledge.</u>
