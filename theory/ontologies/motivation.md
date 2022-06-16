@@ -216,10 +216,6 @@ Description Logics **overcome the ambiguities of early semantic networks and fra
 ### Semiotic Triangle
 * **The triangle of reference** (also known as the triangle of meaning and the semiotic triangle) is a model of how linguistic symbols relate to the objects they represent. The triangle was published in *The Meaning of Meaning (1923) by Charles Kay Ogden and I. A. Richards*.
 
-    ![](https://i.imgur.com/oKMhMsY.png)
-    ![](https://i.imgur.com/05ufHJJ.png)
-    ![](https://i.imgur.com/KtgpOZW.png)
-
 ---
 
 
@@ -242,9 +238,5 @@ Description Logics **overcome the ambiguities of early semantic networks and fra
 ## Classes and Relations in Simple Time
 
 ![](https://i.imgur.com/309XdK7.png)
-
-### Definition of Time Point
-
-![](https://i.imgur.com/OSSzke6.png)
 
 ---
