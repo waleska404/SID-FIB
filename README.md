@@ -11,10 +11,10 @@
 | Introduction   	| Agents  	| Ontologies 	| Agent Communication | Coordination | Negotiation |
 |----------------	|----------	|------------	|------------	|------------	|------------	|
 | [Introduction](theory/intro2sid.md) 	| [Origins](/theory/agents/origins.md) | [Motivation & Several Views of Ontologies](/theory/ontologies/motivation.md) 
-|         | [Agent Types](/theory/agents/types.md) | [Ontologies: Agreements, Types, and Examples] |
-|         | [Agent Architectures](/theory/agents/agent-architectures.md) | [Elements, Design & Development] |
-|         | [BDI](/theory/agents/bdi.md) |   [Formal Foundations and Languages] |
-|         | [Discussion About Agents](/theory/agents/discussion.md) | [Ontologies and Knowledge Representation] |
+|         | [Agent Types](/theory/agents/types.md) | [Ontologies: Agreements, Types, and Examples](/theory/ontologies/agreements.md) |
+|         | [Agent Architectures](/theory/agents/agent-architectures.md) | [Elements, Design & Development](/theory/ontologies/elements.md) |
+|         | [BDI](/theory/agents/bdi.md) |   [Formal Foundations and Languages](/theory/ontologies/formalfundations.md) |
+|         | [Discussion About Agents](/theory/agents/discussion.md) | [Ontologies and Knowledge Representation](/theory/ontologies/ontologies.md) |
 
 
 # Lab
