@@ -3,7 +3,7 @@
 ###### tags: `SID-teo`
 
 * [Intentionality](#intentionality)
-   * [Agent = Intentional System](#Agent-=Intentional-System)
+   * [Agent Intentional System](#agent-intentional-system)
    * [Intentional Attitudes](#intentional-attitudes)
 * [Modalities](#modalities)
    * [Examples of unary modal operators](#examples-of-unary-modal-operators)
@@ -18,10 +18,10 @@
 * [Agents and Actions](#agents-and-actions)
 * [Logical Omniscience](#logical-omniscience)
    * [Logical Omniscience Problem](#logical-omniscience-problem)
-* [Intentions - Beliefs - Desires](#intentions-beliefs-desires)
+* [Intentions Beliefs Desires](#intentions-beliefs-desires)
    * [Intentions and Beliefs](#intentions-and-beliefs)
    * [Desires and Intentions](#desires-and-intentions)
-* [BDI: A Logic Framework](#bdi:-a-logic-framework)
+* [BDI A Logic Framework](#bdi-a-logic-framework)
 * [Mental States of an Agent](#mental-states-of-an-agent)
    * [Agent Activity Diagram](#agent-activity-diagram)
 * [Beliefs about Competences](#beliefs-about-competences)
@@ -57,7 +57,7 @@ If I have a desire, this (desire) should be of doing something or willing that s
 **Beliefs** and **Desires** are intentional.
 
 
-### Agent = Intentional System
+### Agent Intentional System
 
 **Intentionality** refers to the agent’s intentions as **rationally** implied by its beliefs (about the world). 
 
@@ -252,7 +252,7 @@ The necessity rule and the Knowledge axiom together imply that agent <u>**believ
 
 
 ---
-## Intentions - Beliefs - Desires
+## Intentions Beliefs Desires
 
 ### Intentions and Beliefs
 
@@ -278,7 +278,7 @@ The necessity rule and the Knowledge axiom together imply that agent <u>**believ
     * Intentions ought to be consistent with the beliefs but not necessarily with the desires.
 
 ---
-## BDI: A Logic Framework
+## BDI A Logic Framework
 
 * The formulation language is FOL, multimodal with equality.
     * Standard FOL operators + **Happens, Done, BEL**, and **GOAL**.
