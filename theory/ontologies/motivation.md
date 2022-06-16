@@ -66,9 +66,9 @@ Agents can be considered as (virtual) Knowledge Bases.
 * The way we think the world is (**ontology**) influences: what we think can be known about it (**epistemology**); how we think it can be investigated (**methodology and research techniques**);
 
 > If it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck.
-> ![](https://i.imgur.com/y5yFPe6.png)
+> ![](../images/ontologies/motivation/1.png)
 
-![](https://i.imgur.com/IEzs6pq.png)
+![](../images/ontologies/motivation/2.png)
 
 
 
@@ -149,7 +149,7 @@ Agents can be considered as (virtual) Knowledge Bases.
 * The <u>ability to produce deductions</u> from the information represented in an ontology is given by a **Logic**.
 * Logic by itself tends to be neutral with respect to meaning:
     * The below reasoning refers to nothing unless we give meaning to the atoms (P = “it rains”, Q = “I’m wet”).
-    * ![](https://i.imgur.com/7P4ORKA.png)
+    * ![](../images/ontologies/motivation/3.png)
 * When we combine a logic with an ontology, the ontology provides the logical formalism with the capability to express meanings with its statements.
 * This is specially useful in higher-level logics:
     * **First-Order Logic**:
@@ -197,7 +197,7 @@ Description Logics **overcome the ambiguities of early semantic networks and fra
 
 ### Architecture of a DL System
 
-![](https://i.imgur.com/5rSRYPy.png)
+![](../images/ontologies/motivation/4.png)
 
 
 ---
@@ -209,7 +209,7 @@ Description Logics **overcome the ambiguities of early semantic networks and fra
 * **In Philosophy**:
     “Ontology is the science of <u>what is</u>, of the kinds and structures of objects, properties, events, processes and relations in every area of reality.” (Barry Smith)
     
-![](https://i.imgur.com/XShS5Ui.png)
+![](../images/ontologies/motivation/5.png)
 
 
 
@@ -221,7 +221,7 @@ Description Logics **overcome the ambiguities of early semantic networks and fra
 
 ## An Example about Family Relationships
 
-![](https://i.imgur.com/5xGn4pL.png)
+![](../images/ontologies/motivation/6.png)
 
 ### Name Symbols vs. Base Symbols
 
@@ -230,13 +230,13 @@ Description Logics **overcome the ambiguities of early semantic networks and fra
     * **Base symbols BT** (or primitive concepts, occur only on the right-hand side).
 * A **base interpretation for T** only interprets the base symbols. 
 
-![](https://i.imgur.com/CB9HxSj.png)
+![](../images/ontologies/motivation/7.png)
 
 
 ---
 
 ## Classes and Relations in Simple Time
 
-![](https://i.imgur.com/309XdK7.png)
+![](../images/ontologies/motivation/8.png)
 
 ---
